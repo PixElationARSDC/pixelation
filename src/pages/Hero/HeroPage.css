@@ -1,5 +1,7 @@
 .hero-page {
-    background-image: url('/bg.svg');
+    background-image: url('/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     max-height: 100dvh;
     height: calc(100dvh - 4rem);
     margin: 2rem;
