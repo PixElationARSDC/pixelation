@@ -1,0 +1,21 @@
+.hero-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 12rem;
+}
+
+.hero-keywords > span {
+    background-color: hsla(0, 0%, 30%, 0.5);
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 100px;
+    backdrop-filter: blur(8px);
+    border-color: rgb(200, 200, 200);
+    border-width: 0.1px;
+    margin-top: 0.4rem;
+}
