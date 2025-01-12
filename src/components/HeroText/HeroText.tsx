@@ -11,8 +11,8 @@ interface HeroTextProps {
 
 const HeroText: React.FC<HeroTextProps> = ({ text, subtext1, subtext2 }) => {
     return (
-        <VStack align="start">
-            <Heading size="7xl">{text}</Heading>
+        <VStack align="start" maxW="3xl">
+            <Heading size="7xl" className="heading-text">{text}</Heading>
             <Heading size="md">{subtext1}</Heading>
             <Group>
                 <Heading size="md">{subtext2}</Heading>

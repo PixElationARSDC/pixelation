@@ -12,10 +12,10 @@
     padding-right: 0.75rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-right: 0.5rem;
+    margin-right: 0.2rem;
     border-radius: 100px;
     backdrop-filter: blur(8px);
     border-color: rgb(200, 200, 200);
     border-width: 0.1px;
-    margin-top: 0.4rem;
+    margin-top: 0.2rem;
 }
