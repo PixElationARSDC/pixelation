@@ -10,7 +10,7 @@ const Right: React.FC<RightProps> = ({ text }) => {
   const Html = String.raw;
   const content = Html`${text}`;
   return (
-    <VStack h={"full"} justify={"end"} align={"end"} spaceY={10}>
+    <VStack h={"full"} justify={"start"} align={"end"} spaceY={10}>
       <Prose
         dangerouslySetInnerHTML={{ __html: content }}
         textAlign={"justify"}

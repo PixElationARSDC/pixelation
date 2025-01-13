@@ -1,0 +1,7 @@
+.swiper-slide-active {
+    width: 600px !important;
+}
+
+.swiper-slide {
+    transition: all 1s;
+}
