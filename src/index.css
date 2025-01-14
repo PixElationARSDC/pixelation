@@ -1,40 +1,39 @@
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
-    height: 10px;
-    width: 8px;
+  height: 10px;
+  width: 8px;
 }
 
 *::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: #000000;
+  border-radius: 5px;
+  background-color: #000000;
 }
 
 *::-webkit-scrollbar-track:hover {
-    background-color: #222324;
+  background-color: #222324;
 }
 
 *::-webkit-scrollbar-track:active {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 *::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    background-color: #FFFFFF;
+  border-radius: 8px;
+  background-color: #ffffff;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-    background-color: #E3E3E3;
+  background-color: #e3e3e3;
 }
 
 *::-webkit-scrollbar-thumb:active {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-:root{
-    font-family: "Archivo", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+:root {
+  font-family: 'Archivo', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
 }
