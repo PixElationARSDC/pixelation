@@ -1,0 +1,79 @@
+.motto{
+    padding: 1 rem;
+    margin: 1.5rem;
+    padding-top: 2rem;
+
+}
+
+
+.motto-text {
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 
+        0 0 4px #fff,
+        0 0 8px #fff,
+        0 0 12px rgba(255,255,255,0.3),
+        0 0 20px rgba(255,255,255,0.2);
+    animation: subtleGlow 2s ease-in-out infinite alternate;
+    transition: all 0.3s ease;
+}
+
+.motto-text:hover {
+    transform: scale(1.05);
+    text-shadow: 
+        0 0 4px #fff,
+        0 0 8px #fff,
+        0 0 15px rgba(255,255,255,0.4),
+        0 0 25px rgba(255,255,255,0.3);
+}
+
+@keyframes subtleGlow {
+    from {
+        text-shadow: 
+            0 0 4px #fff,
+            0 0 8px #fff,
+            0 0 12px rgba(255,255,255,0.3),
+            0 0 20px rgba(255,255,255,0.2);
+    }
+    to {
+        text-shadow: 
+            0 0 2px #fff,
+            0 0 4px #fff,
+            0 0 6px rgba(255,255,255,0.2),
+            0 0 10px rgba(255,255,255,0.1);
+    }
+}
+
+
+.motto-container {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .motto-text {
+      font-size: 2xl;
+    }
+  
+    .motto {
+      text-align: center; 
+    }
+  
+    .motto .chakra-flex {
+      flex-direction: column; 
+      gap: 4;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .motto .chakra-flex {
+      flex-direction: row;
+      gap: 8; 
+    }
+  }
