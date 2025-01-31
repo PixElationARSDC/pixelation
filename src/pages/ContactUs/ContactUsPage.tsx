@@ -20,10 +20,10 @@ const ContactUsPage: React.FC = () => {
                             verticalAlign="middle"
                             gap={0}
                         >
-                            <Button rounded="full" size={"lg"} px={7} fontSize="lg" onClick={() => window.open('mailto:contact@pixelation.in', '_blank')}>
+                            <Button rounded="full" size={"lg"} px={7} fontSize="lg" onClick={() => window.open('mailto:pixelation@arsd.du.ac.in', '_blank')}>
                                 LET'S TALK
                             </Button>
-                            <IconButton rounded="full" size={"lg"} aria-label="Arrow Right" onClick={() => window.open('mailto:contact@pixelation.in', '_blank')}><ArrowUpRight /></IconButton>
+                            <IconButton rounded="full" size={"lg"} aria-label="Arrow Right" onClick={() => window.open('mailto:pixelation@arsd.du.ac.in', '_blank')}><ArrowUpRight /></IconButton>
                         </Box>{' '}
                         with us
                     </Text>
@@ -31,7 +31,7 @@ const ContactUsPage: React.FC = () => {
                         Pixelation<br />
                         Atma Ram Sanatan Dharma College<br />
                         Dhaula Kuan, New Delhi, 110021<br />
-                        contact@pixelation.in
+                        pixelation@arsd.du.ac.in
                     </Text>
                 </Container>
                 <Separator my={10} borderColor={'gray.300'} size={"md"} rounded={"full"} />
