@@ -1,66 +1,107 @@
 import React from 'react';
-import { Box, Image } from '@chakra-ui/react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/swiper-bundle.css';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import {
+  Box,
+  Image,
+  Container,
+  Heading,
+  VStack,
+} from '@chakra-ui/react';
 import './Slider.css';
+import slider1 from '/slider1.jpg';
+import slider2 from '/slider2.jpg';
+import slider3 from '/slider3.jpg';
 
-const Slider: React.FC = () => {
-  const images = [
+interface SlideItem {
+  id: number;
+  image: string;
+}
+
+const PhotoSlider: React.FC = () => {
+  const slides: SlideItem[] = [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba",
-      alt: "Nature Image 1"
+      image: slider1
     },
     {
       id: 2,
-      url: "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=600",
-      alt: "Nature Image 2"
+      image: slider2
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1682687220063-4742bd7fd538",
-      alt: "Nature Image 3"
+      image: slider3
     },
-    {
-      id: 4,
-      url: "https://images.unsplash.com/photo-1682687220199-d0124f48f95b",
-      alt: "Nature Image 4"
-    }
   ];
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    className: 'photo-slider',
+    dotsClass: 'custom-dots',
+    cssEase: "cubic-bezier(0.87, 0.03, 0.41, 0.9)",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          arrows: true,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+        }
+      }
+    ]
+  };
+
   return (
-    <div>
-    <h1 className='photo-header'>Photography</h1>
-    <Box className="slider-container">
-      <Swiper
-        spaceBetween={20}
-        centeredSlides={true}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination, Autoplay]}
-        className="mySwiper"
-      >
-        {images.map((image) => (
-          <SwiperSlide key={image.id}>
-            <Box className="slide-box">
-              <Image
-                src={image.url}
-                alt={image.alt}
-                className="slide-image"
-              />
-            </Box>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </Box>
-    </div>
+    <Container maxW="container.xl" py={2} className="slider-container">
+      <VStack gap={4} align="start" width="100%">
+        <Heading
+          as="h2"
+          fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+          fontWeight="bold"
+          color="white"
+          mb={4}
+          className="photography-heading"
+        >
+          Photography
+        </Heading>
+        <Box className="slider-wrapper" width="100%">
+          <Slider {...settings}>
+            {slides.map((slide) => (
+              <Box key={slide.id} className="slide-item">
+                <Box
+                  className="slide-content"
+                  position="relative"
+                  borderRadius="xl"
+                  overflow="hidden"
+                >
+                  <Image
+                    src={slide.image}
+                    alt={`Slide ${slide.id}`}
+                    objectFit="cover"
+                    width="100%"
+                    height="100%"
+                  />
+                </Box>
+              </Box>
+            ))}
+          </Slider>
+        </Box>
+      </VStack>
+    </Container>
   );
 };
 
-export default Slider;
+export default PhotoSlider;

@@ -57,6 +57,7 @@ const TasveerSection = () => {
               fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} 
               lineHeight="tall" 
               textAlign="justify"
+              marginBottom={{ base: 4, md: 6, lg: 12 }}
             >
               Tasveer is our annual celebration of photography and videography—a vibrant journey where
               creativity knows no bounds. Each year, we host a range of exciting competitions that draw
