@@ -1,7 +1,7 @@
-.swiper-slide-active {
+.myswiper .swiper-slide-active {
   width: 600px !important;
 }
 
-.swiper-slide {
+.myswiper .swiper-slide {
   transition: all 1s;
 }

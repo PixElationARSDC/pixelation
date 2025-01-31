@@ -27,6 +27,7 @@ const Slider: React.FC = () => {
       autoplay={{ delay: 2500, disableOnInteraction: false, pauseOnMouseEnter: true }}
       speed={1000}
       loop={true}
+      className='myswiper'
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index} style={{ position: 'relative' }}>
