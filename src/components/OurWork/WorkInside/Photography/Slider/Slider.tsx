@@ -1,87 +1,66 @@
 import React from 'react';
-import { Box, Heading, Image } from '@chakra-ui/react';
+import { Box, Image } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
+import './Slider.css';
 
-interface PhotoSlide {
-  id: number;
-  imageUrl: string;
-  title: string;
-}
+const Slider: React.FC = () => {
+  const images = [
+    {
+      id: 1,
+      url: "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba",
+      alt: "Nature Image 1"
+    },
+    {
+      id: 2,
+      url: "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=600",
+      alt: "Nature Image 2"
+    },
+    {
+      id: 3,
+      url: "https://images.unsplash.com/photo-1682687220063-4742bd7fd538",
+      alt: "Nature Image 3"
+    },
+    {
+      id: 4,
+      url: "https://images.unsplash.com/photo-1682687220199-d0124f48f95b",
+      alt: "Nature Image 4"
+    }
+  ];
 
-
-const photos: PhotoSlide[] = [
-  {
-    id: 1,
-    imageUrl: 'https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Nature Shot 1'
-  },
-  {
-    id: 2,
-    imageUrl: 'https://images.pexels.com/photos/22185/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Nature Shot 2'
-  },
-  {
-    id: 3,
-    imageUrl: 'https://images.pexels.com/photos/225157/pexels-photo-225157.jpeg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Nature Shot 3'
-  },
-  {
-    id: 4,
-    imageUrl: 'https://images.pexels.com/photos/22185/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600',
-    title: 'Nature Shot 4'
-  },
-];
-
-const PhotographySlider: React.FC = () => {
   return (
-    <Box maxW="1200px" mx="auto" p={4} >
-      <Heading mb={6} textAlign="center">Photography</Heading>
-      
+    <div>
+    <h1 className='photo-header'>Photography</h1>
+    <Box className="slider-container">
       <Swiper
-        modules={[Autoplay, Pagination]}
-        spaceBetween={50}
-        slidesPerView={1}
-        loop={true}
+        spaceBetween={20}
+        centeredSlides={true}
         autoplay={{
-          delay: 2000,
-          disableOnInteraction: true,
+          delay: 3500,
+          disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
         }}
-        style={{
-          width: '100%',
-          height: '500px', 
-        }}
+        modules={[Pagination, Autoplay]}
+        className="mySwiper"
       >
-        {photos.map((photo) => (
-          <SwiperSlide key={photo.id}>
-            <Box
-              w="200%"
-              h="100%"
-              position="relative"
-              overflow="hidden"
-              borderRadius="xl"
-              className='slider-container'
-            >
+        {images.map((image) => (
+          <SwiperSlide key={image.id}>
+            <Box className="slide-box">
               <Image
-                src={photo.imageUrl}
-                alt={photo.title}
-                w="100%"
-                h="100%"
-                transition="transform 0.3s ease"
-                _hover={{
-                  transform: 'scale(1.05)',
-                }}
+                src={image.url}
+                alt={image.alt}
+                className="slide-image"
               />
             </Box>
           </SwiperSlide>
         ))}
       </Swiper>
     </Box>
+    </div>
   );
 };
 
-export default PhotographySlider;
+export default Slider;
