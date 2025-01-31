@@ -7,17 +7,18 @@ import './Slider.css'
 
 const Slider: React.FC = () => {
   const slides = [
-    'https://picsum.photos/id/10/600/400',
-    'https://picsum.photos/id/11/600/400',
-    'https://picsum.photos/id/12/600/400',
-    'https://picsum.photos/id/13/600/400',
-    'https://picsum.photos/id/14/600/400',
-    'https://picsum.photos/id/15/600/400',
-    'https://picsum.photos/id/16/600/400',
-    'https://picsum.photos/id/17/600/400',
-    'https://picsum.photos/id/18/600/400',
-    'https://picsum.photos/id/19/600/400',
-  ]
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7l8F5Q2hMZWnBoDKpXQvSwACf5aMGkcOYJh1u9",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7l7kEBKdmyHpeIKFQziBkcD2Ydr80sR19fn3xU",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lmIX5MANjawZJ3I5rtu0T2fRSAlenFMv4b7xh",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7ljPvFR4taw0ZMbDpg7CnAQPRiUxtHerOzW6mG",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lcqdh2TB1rGY7WuNxCBgf0DyeUZAtTSLshlQJ",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lKMdw9aG5lB14CFgbUadNHcxAv9hRZMnTe7Pz",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7l4wL4m9CJvWGgL8OY30y7S962Qu1npEXfoCdk",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lBltfduSrS4GdHeQb8tzElna3IKvFUfTxZWOs",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7l4ooAtbCJvWGgL8OY30y7S962Qu1npEXfoCdk",
+  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lhWUUkO3CpijG1WVLYowE6Jarz2uO4fZIhxSR"
+]
+
 
   return (
     <Swiper
