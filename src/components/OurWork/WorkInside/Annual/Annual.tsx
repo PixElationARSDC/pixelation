@@ -121,6 +121,7 @@ const AnnualMagazine = () => {
                           bg="white" 
                         />
                       }
+                      
                       scale={0.9} 
                     />
                   </Box>
