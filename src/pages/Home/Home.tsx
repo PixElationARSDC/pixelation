@@ -3,6 +3,7 @@ import HeroPage from '../Hero/HeroPage'
 import AboutPage from '../About/AboutPage'
 import OurWork from '../OurWork/OurWork'
 import CoreTeamPage from '../CoreTeam/CoreTeamPage'
+import ContactUsPage from '../ContactUs/ContactUsPage'
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
       <AboutPage />
       <OurWork />
       <CoreTeamPage />
+      <ContactUsPage />
     </div>
   )
 }

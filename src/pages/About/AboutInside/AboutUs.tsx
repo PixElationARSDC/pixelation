@@ -9,14 +9,14 @@ import './AboutUs.css'
 
 const AboutUs = () => {
   return (
-    <Container maxW="container.xl" py={8} mx={6} className="aboutus">
-      <Header />
+    <Container className="section2" flexDir={"column"}>
+      <Header/>
       <Description />
-      
+
       <SimpleGrid columns={{ base: 1, md: 2 }} gap={8} mt={8}>
         {/* Left Section */}
         <GridItem>
-          <Box>
+          <Box p={0}>
             <NavigationButtons />
             <Motto />
             <Mission />

@@ -1,6 +1,5 @@
-import { Box, Heading } from '@chakra-ui/react';
+import { Box, Heading, Em } from '@chakra-ui/react';
 import { Prose } from '@/components/ui/prose';
-import './Mission.css'; 
 
 const Mission = () => {
     const missionText = `
@@ -10,11 +9,12 @@ const Mission = () => {
     `;
 
     return (
-        <Box mb={8} className='mission'>
-            <Heading as="h2" size="2xl" color="white" mt={8} mb={0} className="mission-heading">
-            Our Mission
+        <Box>
+            <Heading as="h2" size="2xl" color="white" mt={8} bg={"#000000"}>
+                Our <Em>Mission</Em>
             </Heading>
-            <Prose dangerouslySetInnerHTML={{ __html: missionText }} color="white" fontSize="xl" mr={6} />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia explicabo sed qui dolor debitis alias harum, sit at saepe quaerat voluptatum distinctio. Et id ut sunt omnis quo voluptatem ad.
+            <Prose dangerouslySetInnerHTML={{ __html: missionText }} fontSize="xl" bg={"#000"}/>
         </Box>
     );
 };
