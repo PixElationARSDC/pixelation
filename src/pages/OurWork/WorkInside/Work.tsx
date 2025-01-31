@@ -1,7 +1,8 @@
 import { VStack, Container } from '@chakra-ui/react';
 import Photography from '@/components/OurWork/WorkInside/Photography/Photography';
 import Header from '@/components/OurWork/WorkInside/Header/workheader';
-import TasveerSection from '@/components/OurWork/WorkInside/Tasveer/Tasveer';
+import TasveerSection from '@/components/OurWork/WorkInside/Tasveer/tasveer';
+import AnnualMagazine from '@/components/OurWork/WorkInside/Annual/Annual';
 
 const Work = () => {
   return (
@@ -10,6 +11,7 @@ const Work = () => {
         <Header />
         <Photography />
         <TasveerSection/>
+        <AnnualMagazine/>
       </VStack>
     </Container>
   );
