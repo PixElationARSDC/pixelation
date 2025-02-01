@@ -104,7 +104,7 @@ const CoreTeamMembers = [
 const CoreTeam: React.FC = () => {
     return (
         <Container p={0} spaceY={14} display={"flex"} flexDirection={"column"} justifyContent={"space-around"} w="100%" id="coreteam">
-            <Heading size={'9xl'}>
+            <Heading size={'4xl'}>
                 Core <Em>Team</Em>
             </Heading>
 
