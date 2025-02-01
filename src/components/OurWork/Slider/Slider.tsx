@@ -7,17 +7,17 @@ import './Slider.css'
 
 const Slider: React.FC = () => {
   const slides = [
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7l8F5Q2hMZWnBoDKpXQvSwACf5aMGkcOYJh1u9",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7l7kEBKdmyHpeIKFQziBkcD2Ydr80sR19fn3xU",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lmIX5MANjawZJ3I5rtu0T2fRSAlenFMv4b7xh",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7ljPvFR4taw0ZMbDpg7CnAQPRiUxtHerOzW6mG",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lcqdh2TB1rGY7WuNxCBgf0DyeUZAtTSLshlQJ",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lKMdw9aG5lB14CFgbUadNHcxAv9hRZMnTe7Pz",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7l4wL4m9CJvWGgL8OY30y7S962Qu1npEXfoCdk",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lBltfduSrS4GdHeQb8tzElna3IKvFUfTxZWOs",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7l4ooAtbCJvWGgL8OY30y7S962Qu1npEXfoCdk",
-  "https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lhWUUkO3CpijG1WVLYowE6Jarz2uO4fZIhxSR"
-]
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqIroFYLJNUtJLwMNhrRFHeBSKGfE0gvVsim54",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiq4yxNluFw42nWEea1k5KJxb0B6Cz3VGPhUNTA",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiq8k86td5mUP9MYpSBJtDEuNfh5k2bewlAIvxn",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqjkY7mUq7lBCwoRX5LrMImTanvK3kpN0iDVuH",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqseTqIkLbEqQ9NDeHkIUXZF8py6JvLAn0hS2a",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqMS9pKaQUfiqyGL7XpEaVAh94rHguYDCx6Ink",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqHkpS7uyOmiaIl2zBvrZJy5XFxMVn1UhWkqtY",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqu4qTDty0y7PiTHskoIFrxUd5vbRgWXDwl8n2",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqxVuxgE9W2qEF7lTIkW0tsznKRiJULVDjc3dN",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqSkA4MRhrziP6YaghbsDl0F39o2AnMkyx5uQW"
+];
 
 
   return (
