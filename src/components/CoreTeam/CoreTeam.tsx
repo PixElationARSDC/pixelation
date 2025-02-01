@@ -104,12 +104,12 @@ const CoreTeamMembers = [
 const CoreTeam: React.FC = () => {
     return (
         <Container p={0} spaceY={14} display={"flex"} flexDirection={"column"} justifyContent={"space-around"} w="100%" id="coreteam">
-            <Heading size={'4xl'}>
+            <Heading size={'9xl'}>
                 Core <Em>Team</Em>
             </Heading>
 
             <Text fontSize={'xl'} color={"fg.muted"} w={{base: "100%", md: "50%"}}>
-                Meet the dedicated members of Pixelation, the creative club at Delhi University, who are striving to make a difference through innovation and teamwork.
+                Meet the dedicated members of PixElation, the creative club at Delhi University, who are striving to make a difference through innovation and teamwork.
             </Text>
             <Container display={"flex"} flexDirection={"row"} flexWrap={"wrap"} w="100%" justifyContent={"center"} gap={4} p={0} m={0}>
                 {CoreTeamMembers.map((member, index) => (
