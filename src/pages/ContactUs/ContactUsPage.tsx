@@ -28,7 +28,7 @@ const ContactUsPage: React.FC = () => {
                         with us
                     </Text>
                     <Text fontSize="lg" fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '50%' }} textAlign={{ base: 'center', md: 'right' }}>
-                        Pixelation<br />
+                        PixElation<br />
                         Atma Ram Sanatan Dharma College<br />
                         Dhaula Kuan, New Delhi, 110021<br />
                         pixelation@arsd.du.ac.in
@@ -41,7 +41,7 @@ const ContactUsPage: React.FC = () => {
                         <Image src='/logoarsd.png' alt='logo' height='40px' />
                     </HStack>
                     <Text fontSize="sm" fontWeight="light" color="gray.300" w={{ base: '100%', md: '50%' }} textAlign={"center"}>
-                        @{year} Pixelation. All rights reserved.
+                        @{year} PixElation. All rights reserved.
                     </Text>
                     <IconButton
                         rounded="full"
