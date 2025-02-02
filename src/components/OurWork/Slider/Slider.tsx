@@ -6,18 +6,20 @@ import 'swiper/swiper-bundle.css'
 import './Slider.css'
 
 const Slider: React.FC = () => {
-  const slides = [
-    'https://picsum.photos/id/10/600/400',
-    'https://picsum.photos/id/11/600/400',
-    'https://picsum.photos/id/12/600/400',
-    'https://picsum.photos/id/13/600/400',
-    'https://picsum.photos/id/14/600/400',
-    'https://picsum.photos/id/15/600/400',
-    'https://picsum.photos/id/16/600/400',
-    'https://picsum.photos/id/17/600/400',
-    'https://picsum.photos/id/18/600/400',
-    'https://picsum.photos/id/19/600/400',
-  ]
+ const slides = [
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqNUoBRStleU7R6HXWi9dPkLwb1QSsIzCmyrvT",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqPMXpOw92Wzp0sn8LgHEleQ6u7YJmfUXT9ARr",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiq8k86td5mUP9MYpSBJtDEuNfh5k2bewlAIvxn",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqjkY7mUq7lBCwoRX5LrMImTanvK3kpN0iDVuH",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqseTqIkLbEqQ9NDeHkIUXZF8py6JvLAn0hS2a",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqMS9pKaQUfiqyGL7XpEaVAh94rHguYDCx6Ink",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqHkpS7uyOmiaIl2zBvrZJy5XFxMVn1UhWkqtY",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqu4qTDty0y7PiTHskoIFrxUd5vbRgWXDwl8n2",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqxVuxgE9W2qEF7lTIkW0tsznKRiJULVDjc3dN",
+  "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqSkA4MRhrziP6YaghbsDl0F39o2AnMkyx5uQW"
+];
+
+
 
   return (
     <Swiper
@@ -27,6 +29,7 @@ const Slider: React.FC = () => {
       autoplay={{ delay: 2500, disableOnInteraction: false, pauseOnMouseEnter: true }}
       speed={1000}
       loop={true}
+      className='myswiper'
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index} style={{ position: 'relative' }}>

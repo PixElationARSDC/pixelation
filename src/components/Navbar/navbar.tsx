@@ -2,8 +2,10 @@ import { Button, Group, IconButton, Image } from '@chakra-ui/react'
 import React from 'react'
 import './navbar.css'
 import { ArrowRight } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar: React.FC = () => {
+  const navigate = useNavigate()
   return (
     <nav className='navbar'>
       <Group>
@@ -18,8 +20,8 @@ const Navbar: React.FC = () => {
         <Button rounded='full'>Contact</Button>
       </Group>
       <Group gap='0'>
-        <Button rounded='full'>Events</Button>
-        <IconButton rounded='full'>
+        <Button rounded='full' px={7} onClick={() => navigate('/events')}>Events</Button>
+        <IconButton rounded='full' onClick={() => navigate('/events')}>
           <ArrowRight />
         </IconButton>
       </Group>

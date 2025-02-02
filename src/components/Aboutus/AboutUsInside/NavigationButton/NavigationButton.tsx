@@ -2,14 +2,11 @@ import { Stack, Button } from '@chakra-ui/react';
 
 const NavigationButtons = () => {
   return (
-    <Stack direction={['column', 'row']} gap={8} mb={8} ml={12}>
+    <Stack direction={['column', 'row']}>
       <Button
         variant="outline"
         borderRadius="full"
-        borderWidth="2px"
-        borderColor="gray.600"
-        color="white"
-        width={['100%', '200px']} // Responsive width
+        width={['100%', '250px']} // Responsive width
         _hover={{ bg: 'whiteAlpha.200' }}
       >
         Teachers and Convenor
@@ -17,10 +14,7 @@ const NavigationButtons = () => {
       <Button
         variant="outline"
         borderRadius="full"
-        borderWidth="2px"
-        borderColor="gray.600"
-        color="white"
-        width={['100%', '200px']} // Responsive width
+        width={['100%', '250px']} // Responsive width
         _hover={{ bg: 'whiteAlpha.200' }}
       >
         Members and Core Team

@@ -123,10 +123,10 @@ const TrueFocus: React.FC<TrueFocusProps> = ({
                     "--glow-color": glowColor,
                 } as React.CSSProperties}
             >
-                <span className="corner top-left"></span>
-                <span className="corner top-right"></span>
-                <span className="corner bottom-left"></span>
-                <span className="corner bottom-right"></span>
+                <span className="top-left corner"></span>
+                <span className="top-right corner"></span>
+                <span className="bottom-left corner"></span>
+                <span className="bottom-right corner"></span>
             </motion.div>
         </div>
     );

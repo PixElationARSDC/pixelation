@@ -37,3 +37,12 @@
   font-style: normal;
   font-variation-settings: 'wdth' 100;
 }
+
+.section2 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  min-height: 100dvh;
+}

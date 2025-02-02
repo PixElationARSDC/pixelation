@@ -15,7 +15,7 @@ const HeroPage: React.FC = () => {
         subtext2='UNIVERSITY OF DELHI'
       />
       <HStack justifyContent='space-between'>
-        <HeroKeywords keywords={['Landscape', 'Portraight', 'Wildlife', 'Nature']} />
+        <HeroKeywords keywords={['Landscapes', 'Portraits', 'Wildlife', 'Nature']} />
       </HStack>
     </div>
   )
