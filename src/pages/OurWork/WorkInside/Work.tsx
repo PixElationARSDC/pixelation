@@ -1,7 +1,7 @@
 import { VStack, Container } from '@chakra-ui/react';
 import Header from '@/components/OurWork/WorkInside/Header/workheader';
 import TasveerSection from '@/components/OurWork/WorkInside/Tasveer/tasveer';
-import AnnualMagazine from '@/components/OurWork/WorkInside/Annual/Annual';
+// import AnnualMagazine from '@/components/OurWork/WorkInside/Annual/Annual';
 import PhotoSlider from '@/components/OurWork/WorkInside/Photography/Slider/Slider';
 import ImageSlider from '@/components/OurWork/WorkInside/Photography/PhotoSwiper/PhotoSwiper';
 
@@ -13,7 +13,7 @@ const Work = () => {
         <PhotoSlider />
         <ImageSlider />
         <TasveerSection />
-        <AnnualMagazine />
+        {/* <AnnualMagazine /> */}
       </VStack>
     </Container>
   );
