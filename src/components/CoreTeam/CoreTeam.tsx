@@ -25,7 +25,7 @@ const CoreTeamMembers = [
         name: 'Tanu Shree',
         role: 'Secretary',
         username: '@TANUSHREE02',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBDhLw8wyQ1FzIRhCYdNer4knKEvM8t5xuwfHL'
+        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBkfyJim5uRVzsiK3675lZjFpwhmIvBqY4oXeM'
     },
     {
         name: 'Jatin Kapoor',
@@ -55,7 +55,7 @@ const CoreTeamMembers = [
         name: 'Sumit',
         role: 'Social Media Head',
         username: '@SUMITSHAKYA1219',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBVhsF9jOgfopyRKOsYZ71q2dL8mtbV3XUjkN9'
+        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBSpY94jAwh1el6v9dyNKiE4kCuXGRUgZn0JAQ'
     },
     {
         name: 'Arman',
@@ -91,7 +91,7 @@ const CoreTeamMembers = [
         name: 'Abhinav Kalra',
         role: 'Co-PR Head',
         username: '@ABHINAVKALRA.17',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBDI8b5hyQ1FzIRhCYdNer4knKEvM8t5xuwfHL'
+        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIB6UoSNRphMqYmB8lHUoOJe3fETVtruwx2G4Kd'
     },
     {
         name: 'Prince',
