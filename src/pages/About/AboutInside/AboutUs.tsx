@@ -5,15 +5,14 @@ import NavigationButtons from '@/components/Aboutus/AboutUsInside/NavigationButt
 import Motto from '@/components/Aboutus/AboutUsInside/Motto/Motto';
 import Mission from '@/components/Aboutus/AboutUsInside/Mission/Mission';
 import TeamImage from '@/components/Aboutus/AboutUsInside/TeamImage/TeamImage';
-import './AboutUs.css'
 
 const AboutUs = () => {
   return (
     <Container className="section2" flexDir={"column"}>
-      <Header/>
+      <Header />
       <Description />
 
-      <SimpleGrid columns={{ base: 1, md: 2 }} gap={8} mt={8}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} mt={10} gap={10}>
         {/* Left Section */}
         <GridItem>
           <Box p={0}>

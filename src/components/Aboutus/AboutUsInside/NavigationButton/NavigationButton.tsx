@@ -17,7 +17,7 @@ const NavigationButtons = () => {
         width={['100%', '250px']} // Responsive width
         _hover={{ bg: 'whiteAlpha.200' }}
       >
-        Past Members and Core Team
+        Members and Core Team
       </Button>
     </Stack>
   );
