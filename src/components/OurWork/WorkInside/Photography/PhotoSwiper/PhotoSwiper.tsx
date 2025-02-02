@@ -91,14 +91,12 @@ const ImageSlider = () => {
         >
           <Slider {...settings}>
             {images.map((image, index) => (
-              <Box 
-                key={index} 
+              <Box
+                key={index}
                 position="relative"
                 height={{ base: "400px", md: "500px" }}
                 overflow="hidden"
                 borderRadius="2xl"
-                mb={3}
-                mx={2}
               >
                 <Image
                   src={image.src}

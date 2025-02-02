@@ -7,13 +7,13 @@ import ImageSlider from '@/components/OurWork/WorkInside/Photography/PhotoSwiper
 
 const Work = () => {
   return (
-    <Container maxW="container.xl" bg="black" color="white" py={8}>
-      <VStack gap={12} align="stretch">
+    <Container maxW="container.xl" bg="black" color="white" p={16}>
+      <VStack align="stretch" gapY={12}>
         <Header />
         <PhotoSlider />
         <ImageSlider />
-        <TasveerSection/>
-        <AnnualMagazine/>
+        <TasveerSection />
+        <AnnualMagazine />
       </VStack>
     </Container>
   );

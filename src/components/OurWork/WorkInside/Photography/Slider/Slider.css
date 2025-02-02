@@ -1,14 +1,9 @@
-.photography-heading {
-  position: relative;
-  padding-left: 1rem;
-  margin-bottom: 1.5rem;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -27,7 +22,6 @@
 }
 
 .slider-wrapper {
-  padding: 10px 0 40px;
   position: relative;
 }
 
@@ -40,6 +34,7 @@
   width: 100%;
   border-radius: 0.5rem;
   overflow: hidden;
+  height: 400px;
 }
 
 .slick-dots {
@@ -136,7 +131,7 @@
   height: auto;
 }
 
-.slick-slide > div {
+.slick-slide>div {
   height: 100%;
 }
 
@@ -145,7 +140,7 @@
   .slick-prev {
     left: 10px;
   }
-  
+
   .slick-next {
     right: 10px;
   }
@@ -160,20 +155,20 @@
   .slider-container {
     padding: 0 10px;
   }
-  
+
   .slide-content {
     aspect-ratio: 4/3;
   }
-  
+
   .custom-dots {
     bottom: -25px;
   }
-  
+
   .custom-dots li button {
     width: 6px;
     height: 6px;
   }
-  
+
   .custom-dots li.slick-active button {
     width: 20px;
   }
@@ -200,16 +195,24 @@
   .slide-content {
     aspect-ratio: 1/1;
   }
-  
+
   .slider-wrapper {
     padding: 10px 0 30px;
   }
 }
 
 @keyframes pulse {
-  0% { opacity: 1; }
-  50% { opacity: 0.5; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .slide-content.loading {

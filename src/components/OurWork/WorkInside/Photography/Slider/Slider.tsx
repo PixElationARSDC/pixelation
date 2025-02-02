@@ -65,15 +65,14 @@ const PhotoSlider: React.FC = () => {
   };
 
   return (
-    <Container maxW="container.xl" py={2} className="slider-container">
-      <VStack gap={4} align="start" width="100%">
+    <Container maxW="container.xl" className="slider-container" p={0}>
+      <VStack align="start" width="100%">
         <Heading
           as="h2"
-          fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
-          fontWeight="bold"
+          fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
+          fontWeight="medium"
           color="white"
           mb={4}
-          className="photography-heading"
         >
           Photography
         </Heading>
@@ -91,8 +90,7 @@ const PhotoSlider: React.FC = () => {
                     src={slide.image}
                     alt={`Slide ${slide.id}`}
                     objectFit="cover"
-                    width="100%"
-                    height="100%"
+                    height="100px"
                   />
                 </Box>
               </Box>

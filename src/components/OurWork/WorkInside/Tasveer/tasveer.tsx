@@ -8,13 +8,13 @@ const TasveerSection = () => {
     {
       year: '2023-24',
       image: tasveer1,
-      width: { base: "100%", md: "45%", lg: "500px" },
+      width: { base: "100%", md: "45%", lg: "400px" },
       height: { base: "250px", md: "350px", lg: "400px" }
     },
     {
       year: '2022-23',
       image: tasveer2,
-      width: { base: "100%", md: "35%", lg: "425px" },
+      width: { base: "100%", md: "35%", lg: "400px" },
       height: { base: "250px", md: "350px", lg: "400px" }
     },
     {
