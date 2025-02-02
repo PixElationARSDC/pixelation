@@ -7,7 +7,7 @@ const CoreTeamMembers = [
       {
         name: 'Tejasva',
         role: 'President',
-        username: '@TEJASVA.SINGH',
+        username: '@tejasva.in',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBe6ykgmPb8Y1U7lH4I5FRGiAJte6rP0zCOpMn'
     },
     {
@@ -62,7 +62,7 @@ const CoreTeamMembers = [
     {
         name: 'Arman',
         role: 'Content Head',
-        username: '@ΑΡΜΑΝ.ΑRYAN42',
+        username: '@ΑRΜΑΝ.ΑRYAN42',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBhW9zTobVEDrUzSbcesPdjkvhy1WZBtpMIHx3'
     },
     {
