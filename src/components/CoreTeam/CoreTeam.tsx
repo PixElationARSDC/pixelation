@@ -3,18 +3,20 @@ import React from 'react';
 import 'swiper/swiper-bundle.css'
 
 const CoreTeamMembers = [
+    
+      {
+        name: 'Tejasva',
+        role: 'President',
+        username: '@TEJASVA.SINGH',
+        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBe6ykgmPb8Y1U7lH4I5FRGiAJte6rP0zCOpMn'
+    },
     {
         name: 'Mahira',
         role: 'Vice-President',
         username: '@SELENEPHOMAHI',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBTAlXJW77CMDbyJgPeNsoVGhkFcLBnirHO0Yx'
     },
-    {
-        name: 'Tejasva',
-        role: 'President',
-        username: '@TEJASVA.SINGH',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBe6ykgmPb8Y1U7lH4I5FRGiAJte6rP0zCOpMn'
-    },
+  
     {
         name: 'Vedika',
         role: 'Vice-President',
