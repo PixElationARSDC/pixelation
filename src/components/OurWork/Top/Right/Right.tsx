@@ -1,6 +1,7 @@
 import { Prose } from '@/components/ui/prose'
 import { Group, VStack, Button, IconButton } from '@chakra-ui/react'
 import { ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import React from 'react'
 
 interface RightProps {
@@ -19,12 +20,16 @@ const Right: React.FC<RightProps> = ({ text }) => {
         fontFamily={'body'}
       />
       <Group gap={0}>
-        <Button variant={'outline'} rounded='full' px={7}>
-          Learn More
-        </Button>
-        <IconButton rounded='full'>
-          <ArrowRight />
-        </IconButton>
+      <Link to="/our-work"> 
+          <Button variant={'outline'} rounded='full' px={7}>
+            Learn More
+          </Button>
+        </Link>
+        <Link to="/our-work"> 
+          <IconButton rounded='full'>
+            <ArrowRight />
+          </IconButton>
+        </Link>
       </Group>
     </VStack>
   )
