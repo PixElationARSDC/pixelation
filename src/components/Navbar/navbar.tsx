@@ -14,10 +14,10 @@ const Navbar: React.FC = () => {
       </Group>
       <Group attached>
         <Button rounded='full'>Home</Button>
-        <Button>About</Button>
-        <Button>Our Work</Button>
-        <Button>Achievements</Button>
-        <Button rounded='full'>Contact</Button>
+        <Button><a href={"#aboutus"}>About</a></Button>
+        <Button><a href={"#ourwork"}>Our Work</a></Button>
+        <Button><a href={"#ourteam"}>Our Team</a></Button>
+        <Button rounded='full'><a href={"#contact"}>Contact</a></Button>
       </Group>
       <Group gap='0'>
         <Button rounded='full' px={7} onClick={() => navigate('/events')}>Events</Button>

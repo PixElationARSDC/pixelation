@@ -6,7 +6,7 @@ import { ArrowUpRight, ArrowUp } from 'lucide-react';
 const ContactUsPage: React.FC = () => {
     const [year,] = React.useState(new Date().getFullYear());
     return (
-        <div className='contactus-page' id='#contact-us'>
+        <div className='contactus-page' id='contact'>
             <Container bg="#373733" maxW="container.xl" p={6} rounded="xl">
                 <Heading size="4xl" textAlign={{ base: 'center', md: 'left' }}>
                     Contact <Em>Us</Em>
