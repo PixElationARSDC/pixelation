@@ -1,5 +1,4 @@
 import React from 'react'
-import './OurWork.css'
 
 import Left from '@/components/OurWork/Top/Left/Left'
 import Right from '@/components/OurWork/Top/Right/Right'
@@ -8,7 +7,7 @@ import { GridItem, SimpleGrid } from '@chakra-ui/react'
 
 const OurWork: React.FC = () => {
   return (
-    <div className='our-work' id="ourwork">
+    <div className='section2' id="ourwork">
       <SimpleGrid columns={{ base: 1, md: 5 }} columnGap={10} rowGap={10}>
         <GridItem colSpan={{ base: 1, md: 3 }}>
           <Left text='<b>Explore</b> the artistry and meticulous detail in <b>our gallery</b> of <b>timeless images.</b>' />

@@ -14,3 +14,23 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  .hero-page {
+    margin: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-page {
+    margin: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}

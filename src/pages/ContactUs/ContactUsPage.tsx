@@ -1,7 +1,7 @@
 import React from 'react';
-import './ContactUsPage.css';
 import { Button, Container, Em, Heading, IconButton, Text, Box, Separator, Image, HStack } from '@chakra-ui/react';
 import { ArrowUpRight, ArrowUp } from 'lucide-react';
+import './ContactUsPage.css'
 
 const ContactUsPage: React.FC = () => {
     const [year,] = React.useState(new Date().getFullYear());
@@ -12,7 +12,7 @@ const ContactUsPage: React.FC = () => {
                     Contact <Em>Us</Em>
                 </Heading>
                 <Container display={{ base: 'block', md: 'flex' }} p={0} justifyContent={"space-between"} alignItems={"center"}>
-                    <Text fontSize={{ base: '2xl', md: '6xl' }} fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '55%' }} lineHeight={1.1} textAlign={{ base: 'center', md: 'left' }}>
+                    <Text fontSize={{ base: '2xl', md: '6xl' }} fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '55%' }} lineHeight={{ base: "1.1", md: "1.2", sm: "2" }} textAlign={{ base: 'center', md: 'left' }}>
                         Let's <b style={{ color: "white", fontWeight: "600" }}>discuss</b> your vision{' '}
                         <Box
                             display="inline-flex"

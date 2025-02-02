@@ -1,12 +1,11 @@
 import React from 'react';
-import './EventPage.css';
 import { GridItem, SimpleGrid } from '@chakra-ui/react';
 import Left from '@/components/Event/Left';
 import Right from '@/components/Event/Right';
 
 const EventPage: React.FC = () => {
     return (
-        <div className='event-page'>
+        <div className='section2'>
             <SimpleGrid columns={{ base: 1, md: 4 }} gap={8}>
                 <GridItem colSpan={{ base: 1, md: 2 }}>
                     <Left name='WORKSHOP' location='SEM HALL 1' date='31/01/25' time='STARTING 11:30 AM' agenda="An an <b>immersive learning experience</b> designed to guide you through the intricacies of filmmaking, from conceptualizing ideas to crafting visually stunning narratives." />
