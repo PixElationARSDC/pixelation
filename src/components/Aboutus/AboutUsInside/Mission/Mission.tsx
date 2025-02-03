@@ -3,7 +3,7 @@ import { Prose } from '@/components/ui/prose';
 
 const Mission = () => {
     const missionText = `
-            To encourage the aspiring photographers and provide them with right exposure and creating environment for Photography and videography as a career option.
+            To encourage the aspiring photographers and provide them with right exposure and creating environment for Photography and Videography as a career option.
     `;
 
     return (
