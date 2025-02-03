@@ -38,7 +38,7 @@ const CoreTeamMembers = [
     {
         name: 'Lakshay Chauhan',
         role: 'Finance Head',
-        username: '@lakshayychauhann
+        username: '@lakshayychauhann',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIByQQY1vsMcQmTjirvFS08H7oNICkRYGaKdMsO'
     },
     {
