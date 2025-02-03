@@ -4,7 +4,6 @@ import { ArrowUpRight, ArrowUp } from 'lucide-react';
 import './ContactUsPage.css'
 
 const ContactUsPage: React.FC = () => {
-    const [year,] = React.useState(new Date().getFullYear());
     return (
         <div className='contactus-page' id='contact'>
             <Container bg="#373733" maxW="container.xl" p={6} rounded="xl">
@@ -57,7 +56,7 @@ const ContactUsPage: React.FC = () => {
                         <Image src='/logoarsd.png' alt='logo' height='40px' />
                     </HStack>
                     <Text fontSize="sm" fontWeight="light" color="gray.300" w={{ base: '100%', md: '50%' }} textAlign={"center"}>
-                        @{year} PixElation. All rights reserved.
+                        @{new Date().getFullYear()} PixElation. All rights reserved.
                     </Text>
                     <IconButton
                         rounded="full"
