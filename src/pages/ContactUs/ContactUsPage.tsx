@@ -32,7 +32,7 @@ const ContactUsPage: React.FC = () => {
                             your vision with us
                         </Text>
 
-                        <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" mt={6}>
+                        <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" mt={6} gapX={0}>
                             <Button
                                 rounded="full"
                                 size="lg"
@@ -40,11 +40,13 @@ const ContactUsPage: React.FC = () => {
                                 fontSize="lg"
                                 bg="white"
                                 color="black"
-                                _hover={{ bg: "gray.300", transform: "scale(1.05)" }}
-                                transition="all 0.2s ease-in-out"
+                                _hover={{ bg: "gray.300" }}
                             >
-                                LET'S TALK <ArrowUpRight />
+                                LET'S TALK
                             </Button>
+                            <IconButton rounded='full' tabIndex={-1}>
+                                <ArrowUpRight />
+                            </IconButton>
                         </Link>
                     </Box>
 
@@ -53,7 +55,7 @@ const ContactUsPage: React.FC = () => {
                         Atma Ram Sanatan Dharma College<br />
                         Dhaula Kuan, New Delhi, 110021<br />
                         <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank"
-                            // _hover={{ textDecoration: 'none' }}  // if you want to remove the underline on hover
+                        // _hover={{ textDecoration: 'none' }}  // if you want to remove the underline on hover
                         >
                             pixelation@arsd.du.ac.in
                         </Link>

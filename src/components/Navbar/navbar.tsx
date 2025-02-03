@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
         <Button asChild rounded='full'><a href={"#contact"}>Contact</a></Button>
       </Group>
       <Group>
-        <Link href='/events'>
+        <Link href='/events' gap={0}>
           <Button rounded='full' px={7} tabIndex={-1}>Events</Button>
           <IconButton rounded='full' tabIndex={-1}>
             <ArrowRight />
