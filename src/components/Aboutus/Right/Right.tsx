@@ -21,12 +21,10 @@ const Right: React.FC<RightProps> = ({ text }) => {
         letterSpacing={'wide'}
       />
       <Group gap={0}>
-      <Link to="/about-us"> 
+        <Link to="/about-us">
           <Button variant={'outline'} rounded='full' px={7}>
             Learn More
           </Button>
-        </Link>
-        <Link to="/about-us"> 
           <IconButton rounded='full'>
             <ArrowRight />
           </IconButton>

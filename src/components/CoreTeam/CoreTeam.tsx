@@ -111,7 +111,7 @@ interface Member {
 }
 
 const CoreTeamMember = memo(({ member }: { member: Member }) => (
-    <Container p={4} w={{ base: "100%", sm: "45%", md: "30%", lg: "22%" }} display={"flex"} flexDirection={"column"} alignItems={"center"} bg={"bg.muted"} m={0}>
+    <Container p={4} w={{ base: "100%", sm: "45%", md: "30%", lg: "22%" }} display={"flex"} flexDirection={"column"} alignItems={"center"} bg={"bg.muted"} m={0} rounded={"md"}>
         <Image src={member.avatar} alt={member.name} rounded={"full"} h="90px" mb={4} loading="lazy" />
         <Container textAlign="center">
             <Heading size="lg">{member.name}</Heading>

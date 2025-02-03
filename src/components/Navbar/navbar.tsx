@@ -1,12 +1,11 @@
-import { Button, Group, IconButton, Image, Link as ChakraLink } from '@chakra-ui/react'
+import { Button, Group, IconButton, Image, Link as ChakraLink, Container } from '@chakra-ui/react'
 import React from 'react'
-import './navbar.css'
 import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const Navbar: React.FC = () => {
   return (
-    <nav className='navbar'>
+    <Container p="0" display="flex" justifyContent="space-between" alignItems="center" maxW="container.xl">
       <Group>
         <ChakraLink href='/' _focus={{ outline: 'none' }}>
           <Image src='/logo.png' alt='logo' height='50px' />
@@ -32,7 +31,7 @@ const Navbar: React.FC = () => {
           </Group>
         </Link>
       </Group>
-    </nav>
+    </Container>
   )
 }
 

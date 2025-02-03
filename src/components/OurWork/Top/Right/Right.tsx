@@ -18,14 +18,16 @@ const Right: React.FC<RightProps> = ({ text }) => {
         color={'gray.300'}
         fontFamily={'body'}
       />
-      <Group gap={0}>
-        <Button variant={'outline'} rounded='full' px={7} onClick={() => window.open("https://www.instagram.com/pixelation.arsd/", "_blank")}>
-          Explore More
-        </Button>
-        <IconButton rounded='full' onClick={() => window.open("https://www.instagram.com/pixelation.arsd/", "_blank")}>
-          <ArrowRight />
-        </IconButton>
-      </Group>
+      <a href='https://www.instagram.com/pixelation.arsd/' target='_blank' rel='noreferrer'>
+        <Group gap={0}>
+          <Button variant={'outline'} rounded='full' px={7}>
+            Explore More
+          </Button>
+          <IconButton rounded='full'>
+            <ArrowRight />
+          </IconButton>
+        </Group>
+      </a>
     </VStack>
   )
 }
