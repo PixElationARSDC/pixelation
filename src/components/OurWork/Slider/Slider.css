@@ -3,5 +3,6 @@
 }
 
 .myswiper .swiper-slide {
-  transition: all 1s;
+  transition: all 0.5s;
+  will-change: transform, width;
 }

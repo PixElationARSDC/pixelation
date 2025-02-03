@@ -20,7 +20,7 @@ const Right: React.FC<RightProps> = ({ text }) => {
       />
       <Group gap={0}>
         <Button variant={'outline'} rounded='full' px={7} onClick={() => window.open("https://www.instagram.com/pixelation.arsd/", "_blank")}>
-          Learn More
+          Explore More
         </Button>
         <IconButton rounded='full' onClick={() => window.open("https://www.instagram.com/pixelation.arsd/", "_blank")}>
           <ArrowRight />

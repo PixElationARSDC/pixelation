@@ -16,10 +16,10 @@ const Left: React.FC<LeftProps> = ({ text }) => {
       <Heading size={'4xl'}>
         About <Em>Us</Em>
       </Heading>
-      <Prose
+      <Prose  
         dangerouslySetInnerHTML={{ __html: content }}
         textAlign={'justify'}
-        fontSize={'md'}
+        fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
         color={'gray.300'}
         fontFamily={'body'}
       />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Em, Heading, IconButton, Text, Box, Separator, Image, HStack, Link } from '@chakra-ui/react';
+import { Button, Container, Em, Heading, IconButton, Text, Separator, Image, HStack, Link } from '@chakra-ui/react';
 import { ArrowUpRight, ArrowUp } from 'lucide-react';
 import './ContactUsPage.css'
 
@@ -12,44 +12,33 @@ const ContactUsPage: React.FC = () => {
                     Contact <Em>Us</Em>
                 </Heading>
                 <Container display={{ base: 'block', md: 'flex' }} p={0} justifyContent={"space-between"} alignItems={"center"}>
-                    <Box
-                        display="flex"
-                        flexDirection="column"
-                        alignItems={{ base: "center", md: "flex-start" }}
-                        mt={{ base: 8, md: 6 }}
-                        w={{ base: "100%", md: "50%" }}
-                        textAlign={{ base: "center", md: "left" }}
-                    >
-                        <Text
-                            fontSize={{ base: "2xl", md: "4xl" }}
-                            fontWeight="medium"
-                            color="gray.300"
-                            lineHeight={{ base: "1.3", md: "1.5" }}
+                    <Text fontSize={{ base: '2xl', md: '6xl' }} fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '55%' }} lineHeight={{ base: "1.1", md: "1.2", sm: "2" }} textAlign={{ base: 'center', md: 'left' }}>
+                        Let's <b style={{ color: "white", fontWeight: "600" }}>discuss</b> your vision{' '}
+                        <span
+                            style={{
+                                display: "inline-flex",
+                                alignItems: "center",
+                                verticalAlign: "middle",
+                                gap: 0
+                            }}
                         >
-                            <Text as="span" color="white" fontWeight="bold">
-                                Discuss
-                            </Text>{" "}
-                            your vision with us
-                        </Text>
-
-                        <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" mt={6} gapX={0}>
-                            <Button
-                                rounded="full"
-                                size="lg"
-                                px={6}
-                                fontSize="lg"
-                                bg="white"
-                                color="black"
-                                _hover={{ bg: "gray.300" }}
-                            >
-                                LET'S TALK
-                            </Button>
-                            <IconButton rounded='full' tabIndex={-1}>
-                                <ArrowUpRight />
-                            </IconButton>
-                        </Link>
-                    </Box>
-
+                            <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" gapX={0}>
+                                <Button
+                                    rounded="full"
+                                    size="lg"
+                                    px={6}
+                                    fontSize="lg"
+                                    bg="white"
+                                    color="black"
+                                    _hover={{ bg: "gray.300" }}
+                                >
+                                    LET'S TALK
+                                </Button>
+                                <IconButton rounded="full" size={"lg"} aria-label="Arrow Right"><ArrowUpRight /></IconButton>
+                            </Link>
+                        </span>{' '}
+                        with us
+                    </Text>
                     <Text fontSize="lg" fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '50%' }} textAlign={{ base: 'center', md: 'right' }}>
                         PixElation<br />
                         Atma Ram Sanatan Dharma College<br />

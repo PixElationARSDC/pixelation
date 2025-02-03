@@ -1,12 +1,13 @@
-import { Image } from '@chakra-ui/react'
-import React from 'react'
+import React, { memo, Suspense, lazy } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper/modules'
 import 'swiper/swiper-bundle.css'
 import './Slider.css'
+import { Skeleton } from '@chakra-ui/react'
 
-const Slider: React.FC = () => {
- const slides = [
+const Image = lazy(() => import('@chakra-ui/react').then(module => ({ default: module.Image })))
+
+const slides = [
   "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqNUoBRStleU7R6HXWi9dPkLwb1QSsIzCmyrvT",
   "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqPMXpOw92Wzp0sn8LgHEleQ6u7YJmfUXT9ARr",
   "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiq8k86td5mUP9MYpSBJtDEuNfh5k2bewlAIvxn",
@@ -19,8 +20,7 @@ const Slider: React.FC = () => {
   "https://1sh6in86sy.ufs.sh/f/MZxlz3TQUfiqSkA4MRhrziP6YaghbsDl0F39o2AnMkyx5uQW"
 ];
 
-
-
+const Slider: React.FC = memo(() => {
   return (
     <Swiper
       modules={[Autoplay]}
@@ -33,11 +33,13 @@ const Slider: React.FC = () => {
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index} style={{ position: 'relative' }}>
-          <Image src={slide} alt={`Slide ${index + 1}`} h='300px' width={'full'} rounded={'lg'} />
+          <Suspense fallback={<Skeleton height="300px" width="full" rounded="lg" />}>
+            <Image src={slide} alt={`Slide ${index + 1}`} h='300px' width={'full'} rounded={'lg'} loading="lazy" />
+          </Suspense>
         </SwiperSlide>
       ))}
     </Swiper>
   )
-}
+})
 
 export default Slider

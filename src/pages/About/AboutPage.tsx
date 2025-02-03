@@ -7,7 +7,7 @@ import Right from '@/components/Aboutus/Right/Right'
 const AboutPage: React.FC = () => {
   return (
     <div className='section2' id='aboutus'>
-      <SimpleGrid columns={{ base: 1, md: 5 }} gapX={10}>
+      <SimpleGrid columns={{ base: 1, md: 5 }} gap={10}>
         <GridItem colSpan={{ base: 1, md: 2 }}>
           <Left text='Established in 2017, <b>PixElation</b>, the <b>Photography and Videography Society</b> of <b>Atma Ram Sanatan Dharma College, Delhi University</b>, is a dynamic collective passionate about <b>exploring the world through photography and filmmaking.</b>' />
         </GridItem>

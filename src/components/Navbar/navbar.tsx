@@ -1,16 +1,19 @@
-import { Button, Group, IconButton, Image, Link } from '@chakra-ui/react'
+import { Button, Group, IconButton, Image, Link as ChakraLink } from '@chakra-ui/react'
 import React from 'react'
 import './navbar.css'
 import { ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const Navbar: React.FC = () => {
   return (
     <nav className='navbar'>
       <Group>
-        <Link href='/' _focus={{ outline: 'none' }}>
+        <ChakraLink href='/' _focus={{ outline: 'none' }}>
           <Image src='/logo.png' alt='logo' height='50px' />
+        </ChakraLink>
+        <ChakraLink href='https://arsdcollege.ac.in' _focus={{ outline: 'none' }} target='_blank'>
           <Image src='/logoarsd.png' alt='logo' height='50px' />
-        </Link>
+        </ChakraLink>
       </Group>
       <Group attached>
         <Button rounded='full'>Home</Button>
@@ -20,11 +23,13 @@ const Navbar: React.FC = () => {
         <Button asChild rounded='full'><a href={"#contact"}>Contact</a></Button>
       </Group>
       <Group>
-        <Link href='/events' gap={0}>
-          <Button rounded='full' px={7} tabIndex={-1}>Events</Button>
-          <IconButton rounded='full' tabIndex={-1}>
-            <ArrowRight />
-          </IconButton>
+        <Link to={"/events"}>
+          <Group gap={0}>
+            <Button rounded='full' px={7} tabIndex={-1}>Events</Button>
+            <IconButton rounded='full' tabIndex={-1}>
+              <ArrowRight />
+            </IconButton>
+          </Group>
         </Link>
       </Group>
     </nav>
