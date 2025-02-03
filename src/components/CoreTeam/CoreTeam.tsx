@@ -5,100 +5,100 @@ import 'swiper/swiper-bundle.css'
 const CoreTeamMembers = [
     
       {
-        name: 'Tejasva',
+        name: 'Tejasva Singh',
         role: 'President',
-        username: '@tejasva.in',
+        username: '@tejasva.singh',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBe6ykgmPb8Y1U7lH4I5FRGiAJte6rP0zCOpMn'
     },
     {
-        name: 'Mahira',
+        name: 'Mahira Zabeen',
         role: 'Vice-President',
-        username: '@SELENEPHOMAHI',
+        username: '@selenephomahi',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBTAlXJW77CMDbyJgPeNsoVGhkFcLBnirHO0Yx'
     },
   
     {
-        name: 'Vedika',
+        name: 'Vedika Jaiswal',
         role: 'Vice-President',
-        username: '@VEDIKA_JAISWAL_',
+        username: '@vedika_jaiswal_',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBeLKjf7Pb8Y1U7lH4I5FRGiAJte6rP0zCOpMn'
     },
     {
         name: 'Tanu Shree',
         role: 'Secretary',
-        username: '@TANUSHREE02',
+        username: '@_tanushree02_',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBkfyJim5uRVzsiK3675lZjFpwhmIvBqY4oXeM'
     },
     {
         name: 'Jatin Kapoor',
         role: 'Joint Secretary',
-        username: '@JATIN.K17',
+        username: '@jatin.k17',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBPmj8Z1djIQ91pUb0LwrJWRnh63NEkgiKCVzO'
     },
     {
         name: 'Lakshay Chauhan',
         role: 'Finance Head',
-        username: '@LAKSHAYYCHAUHANN',
+        username: '@lakshayychauhann
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIByQQY1vsMcQmTjirvFS08H7oNICkRYGaKdMsO'
     },
     {
         name: 'Simar Bagga',
         role: 'Filmmaking Head',
-        username: '@SIMAR_BAGGA619',
+        username: '@simar_bagga619',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBb63rKg262em1rTZjEpSIYzqvOXG08ohUkuly'
     },
     {
         name: 'Soumadip Mondal',
         role: 'Videography Head',
-        username: '@SOOMDIP',
+        username: '@soomdip',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBKl7eC7XAMeSycfGmxpCwiNPHuQjWbql7YIT1'
     },
     {
         name: 'Sumit',
         role: 'Social Media Head',
-        username: '@SUMITSHAKYA1219',
+        username: '@sumitshakya1219',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBSpY94jAwh1el6v9dyNKiE4kCuXGRUgZn0JAQ'
     },
     {
-        name: 'Arman',
+        name: 'Arman Aryan',
         role: 'Content Head',
-        username: '@ΑRΜΑΝ.ΑRYAN42',
+        username: '@arman.aryan12',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBhW9zTobVEDrUzSbcesPdjkvhy1WZBtpMIHx3'
     },
     {
         name: 'Pranav Nandagiri',
         role: 'Coverage Head',
-        username: '@PRANAV004',
+        username: '@pranav__004',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBEOEOXMeohYwagUml8GryTXtvD70bijn9qPKL'
     },
     {
         name: 'Shubham Sagar',
         role: 'Digital Head',
-        username: '@SHUBHAMSAGARRR',
+        username: '@shubhamsagarrr',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIByNiniMcQmTjirvFS08H7oNICkRYGaKdMsOub'
     },
     {
         name: 'Dhruv Kalra',
         role: 'Deputy Digital Head',
-        username: '@__DHRUVKALRA',
+        username: '@__dhruvkalra__',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBfjwfouZVKYhnowOuPdX7H3AB8MbItRDqeQcz'
     },
     {
         name: 'Akansha',
         role: 'Co-PR Head',
-        username: '@ITSMEHI..AK',
+        username: '@its.me.hi._.ak',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBIGO8Y2N8l0wio7yBvG2xnXOrh3asJQgedVRk'
     },
     {
         name: 'Abhinav Kalra',
         role: 'Co-PR Head',
-        username: '@ABHINAVKALRA.17',
+        username: '@abhinavkalra.17',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIB6UoSNRphMqYmB8lHUoOJe3fETVtruwx2G4Kd'
     },
     {
         name: 'Prince',
         role: 'Competition Head',
-        username: '@THE_PRINCE.OF',
+        username: '@the_prince.of',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBpM59WdEDhTaKimnR16YMOQj3482rsZukGzUX'
     }
 ];
