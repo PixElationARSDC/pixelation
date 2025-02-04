@@ -127,15 +127,15 @@ const CoreTeamMember = memo(({ member }: { member: Member }) => (
 
 const CoreTeam: React.FC = memo(() => {
     return (
-        <Container p={0} spaceY={14} display={"flex"} flexDirection={"column"} justifyContent={"space-around"} w="100%" id="coreteam">
+        <Container p={0} spaceY={14} display={"flex"} flexDirection={"column"} justifyContent={"space-around"} w="100%" id="coreteam"  >
             <Heading size={'4xl'}>
                 Core <Em>Team</Em>
             </Heading>
 
-            <Text fontSize={'xl'} color={"fg.muted"} w={{ base: "100%", md: "50%" }}>
+            <Text fontSize={'xl'} color={"fg.muted"} w={{ base: "100%", md: "60%" }}>
                 Meet the dedicated members of PixElation, the creative club at Delhi University, who are striving to make a difference through innovation and teamwork.
             </Text>
-            <Container display={"flex"} flexDirection={"row"} flexWrap={"wrap"} w="100%" justifyContent={"center"} gap={4} p={0} m={0}>
+            <Container display={"flex"} flexDirection={"row"} flexWrap={"wrap"} w="100%" gap={5} justifyContent={"center"} p={0} m={0}>
                 {CoreTeamMembers.map((member, index) => (
                     <Suspense fallback={<Skeleton height="200px" width="100%" />} key={index}>
                         <CoreTeamMember member={member} />

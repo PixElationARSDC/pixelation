@@ -22,6 +22,7 @@ const Left: React.FC<LeftProps> = ({ text }) => {
         fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
         color={'gray.300'}
         fontFamily={'body'}
+        mt={10}
       />
     </VStack>
   )
