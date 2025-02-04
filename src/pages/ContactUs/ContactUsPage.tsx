@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button, Container, Em, Heading, IconButton, Text, Separator, Image, HStack, Link } from '@chakra-ui/react';
 import { ArrowUpRight, ArrowUp } from 'lucide-react';
-import './ContactUsPage.css'
+import { FaInstagram, FaYoutube } from 'react-icons/fa';
+import './ContactUsPage.css';
 
 const ContactUsPage: React.FC = () => {
     const [year,] = React.useState(new Date().getFullYear());
@@ -43,9 +44,7 @@ const ContactUsPage: React.FC = () => {
                         PixElation<br />
                         Atma Ram Sanatan Dharma College<br />
                         Dhaula Kuan, New Delhi, 110021<br />
-                        <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank"
-                        // _hover={{ textDecoration: 'none' }}  // if you want to remove the underline on hover
-                        >
+                        <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank">
                             pixelation@arsd.du.ac.in
                         </Link>
                     </Text>
@@ -59,6 +58,14 @@ const ContactUsPage: React.FC = () => {
                     <Text fontSize="sm" fontWeight="light" color="gray.300" w={{ base: '100%', md: '50%' }} textAlign={"center"}>
                         @{year} PixElation. All rights reserved.
                     </Text>
+                    <HStack spacing={4} justifyContent={{ base: 'center', md: 'flex-end' }}>
+                        <Link href="https://www.instagram.com/pixelation.arsd/?hl=en" target="_blank">
+                            <IconButton aria-label="Instagram" icon={<FaInstagram />} size="lg" />
+                        </Link>
+                        <Link href="https://www.youtube.com/@PixElation_arsd" target="_blank">
+                            <IconButton aria-label="YouTube" icon={<FaYoutube />} size="lg" />
+                        </Link>
+                    </HStack>
                     <IconButton
                         rounded="full"
                         aria-label="Arrow Up"
