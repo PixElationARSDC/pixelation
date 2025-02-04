@@ -81,6 +81,7 @@ const ContactUsPage: React.FC = () => {
                         position={{ base: 'fixed', md: 'static' }}
                         bottom={4}
                         right={4}
+                        zIndex={20}
                     >
                         <ArrowUp />
                     </IconButton>
