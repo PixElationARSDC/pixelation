@@ -11,7 +11,7 @@ const HeroText: React.FC<HeroTextProps> = ({ text, subtext1, subtext2 }) => {
   return (
     <VStack align='start' maxW={{ base: '90%', md: '3xl' }} p={4}>
       <Heading
-        size={{ base: '4xl', md: '6xl', lg: '7xl' }}
+        size={{ base: '5xl', md: '6xl', lg: '7xl' }}
         textShadow='4px 4px 11px rgba(180, 180, 180, 0.6)'
         fontFamily="'Gloock', serif"
         fontWeight={400}

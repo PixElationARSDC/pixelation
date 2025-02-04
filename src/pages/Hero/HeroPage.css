@@ -1,7 +1,8 @@
 .hero-page {
-  background-image: url('https://e3drhrp76t.ufs.sh/f/FC5XEMhJbGcVed4R1qbpbe9aN0qu1IRX7K4lnDdWPgOUZfsj');
-  background-repeat: no-repeat;
+  background-image: url('https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lOftB05oUYRvzh0Iw9Dtm6cO78Laq1Gls5gZA');
+  background-repeat: repeat;
   background-size: cover;
+  background-position: center;
   max-height: 100dvh;
   height: calc(100dvh - 4rem);
   margin: 2rem;
@@ -22,15 +23,19 @@
     padding-right: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    height: calc(100dvh - 2rem);
+    border-radius: 1.2rem;
   }
 }
 
 @media (max-width: 480px) {
   .hero-page {
-    margin: 0.5rem;
+    margin: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: calc(100dvh - 1rem);
+    border-radius: 1rem;
   }
 }

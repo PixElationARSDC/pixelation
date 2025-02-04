@@ -8,12 +8,12 @@ const ContactUsPage: React.FC = () => {
     const [year,] = React.useState(new Date().getFullYear());
     return (
         <div className='contactus-page' id='contact'>
-            <Container bg="#373733" maxW="container.xl" p={6} rounded="xl">
+            <Container bg="gray.800" maxW="container.xl" p={6} rounded="xl">
                 <Heading size="4xl" textAlign={{ base: 'center', md: 'left' }}>
                     Contact <Em>Us</Em>
                 </Heading>
                 <Container display={{ base: 'block', md: 'flex' }} p={0} justifyContent={"space-between"} alignItems={"center"}>
-                    <Text fontSize={{ base: '2xl', md: '6xl' }} fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '55%' }} lineHeight={{ base: "1.1", md: "1.2", sm: "2" }} textAlign={{ base: 'center', md: 'left' }}>
+                    <Text fontSize={{ base: '3xl', md: '6xl' }} fontWeight="light" color="gray.300" mt={10} w={"full"} lineHeight={{ base: "1.4", md: "1.2" }} textAlign={{ base: 'center', md: 'left' }}>
                         Let's <b style={{ color: "white", fontWeight: "600" }}>discuss</b> your vision{' '}
                         <span
                             style={{
@@ -26,22 +26,22 @@ const ContactUsPage: React.FC = () => {
                             <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" gapX={0}>
                                 <Button
                                     rounded="full"
-                                    size="lg"
+                                    size={{base: "sm", md: "lg"}}
                                     px={6}
-                                    fontSize="lg"
+                                    fontSize={{base: "sm", md: "lg"}}
                                     bg="white"
                                     color="black"
                                     _hover={{ bg: "gray.300" }}
                                 >
                                     LET'S TALK
                                 </Button>
-                                <IconButton rounded="full" size={"lg"} aria-label="Arrow Right"><ArrowUpRight /></IconButton>
+                                <IconButton rounded="full" size={{base: "sm", md: "lg"}} aria-label="Arrow Right"><ArrowUpRight /></IconButton>
                             </Link>
                         </span>{' '}
                         with us
                     </Text>
                     <Container display={"flex"} flexDirection={"column"} alignItems={{ base: "center", md: "end" }} p={0}>
-                        <Text fontSize="lg" fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '50%' }} textAlign={{ base: 'center', md: 'right' }}>
+                        <Text fontSize={{ base: "md", md: "lg"}} fontWeight="light" color="gray.300" mt={10} w={"full"} textAlign={{ base: 'center', md: 'right' }}>
                             PixElation<br />
                             Atma Ram Sanatan Dharma College<br />
                             Dhaula Kuan, New Delhi, 110021<br />

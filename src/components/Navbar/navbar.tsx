@@ -71,13 +71,13 @@ const Navbar = () => {
       {useBreakpointValue({
         base: (
           <IconButton
-            variant={"subtle"}
             rounded='full'
             onClick={onOpen}
             aria-label="Open Menu"
             position="fixed"
-            top="1.5rem"
+            top="1.2rem"
             right="1.5rem"
+            zIndex={20}
           ><HamburgerIcon /></IconButton>
         ),
         md: null

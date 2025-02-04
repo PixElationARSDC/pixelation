@@ -25,11 +25,21 @@ const Slider: React.FC = memo(() => {
     <Swiper
       modules={[Autoplay]}
       spaceBetween={15}
-      slidesPerView={3}
-      autoplay={{ delay: 2500, disableOnInteraction: false, pauseOnMouseEnter: true }}
-      speed={1000}
+      slidesPerView={"auto"}
+      autoplay={{ delay: 1000, disableOnInteraction: false }}
+      speed={1500}
       loop={true}
-      className='myswiper'
+      breakpoints={{
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      }}
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index} style={{ position: 'relative' }}>
