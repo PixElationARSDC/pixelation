@@ -5,7 +5,6 @@ import './ContactUsPage.css';
 import { FiYoutube, FiInstagram } from "react-icons/fi";
 
 const ContactUsPage: React.FC = () => {
-    const [year,] = React.useState(new Date().getFullYear());
     return (
         <div className='contactus-page' id='contact'>
             <Container bg="gray.800" maxW="container.xl" p={6} rounded="xl">
@@ -72,7 +71,7 @@ const ContactUsPage: React.FC = () => {
                     </Group>
 
                     <Text fontSize="sm" fontWeight="light" color="gray.300" w={{ base: '100%', md: '50%' }} textAlign={"center"}>
-                        @{year} PixElation. All rights reserved.
+                        @{new Date().getFullYear()} PixElation. All rights reserved.
                     </Text>
                     <IconButton
                         rounded="full"
