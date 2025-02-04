@@ -12,7 +12,7 @@ const Events = [
         agenda: "In this fast-paced competition, shutterbugs demonstrate their prowess in capturing the essence of fleeting moments. Participants roamed the campus, capturing scenes that resonated with the event's theme, showcasing their keen eye for detail and composition.",
         details: "Join us on <b>24th February</b> at <b>10:00 AM</b> in <b>ARSD Campus</b> for an exhilarating on-spot photography competition. Test your skills, creativity, and quick thinking to craft stunning visual stories on the go.",
         price: "TBA",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24zmj8tEO5YP7OElSKWqVDGodQCjuwB9hpnLkX",
+        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24wo2RE9Ta5pbej9WY3qVSn7lKc8ftwduM0oEU",
         registrationurl: "https://forms.gle/k3oGCQMXjWDDxm7YA",
         eventmanageremail: "pixelation@arsd.du.ac.in"
     },
@@ -24,7 +24,7 @@ const Events = [
         agenda: "Chrono Tales provides a virtual canvas for participants to weave captivating narratives through the lens of photography. Through an online platform, students unleashed their creativity, capturing moments and emotions to craft visually stunning photostories.",
         details: "Participate in <b>Chrono Tales</b>, our online photostory competition, and let your creativity shine. Capture moments, tell stories, and showcase your vision in a stunning visual format.",
         price: "TBA",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24TL7Mgc4NajhWqmLiJe26Fk9OYIKo038PdQ5Z",
+        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24Z5Mu5MlM2m6tHdnjkPfWgSB0siVJcYRDua8x",
         registrationurl: "https://forms.gle/vUb4sEGQvy9MPYKh8",
         eventmanageremail: "pixelation@arsd.du.ac.in"
     },
@@ -36,7 +36,7 @@ const Events = [
         agenda: "Pixinema sparkes creativity and camaraderie among participants who crafted compelling short films on the spot. Teams of budding filmmakers showcased their storytelling prowess under pressure, resulting in a display of remarkable ingenuity and teamwork.",
         details: "Join us on <b>25th February</b> at <b>11:00 AM</b> in <b>ARSD Campus</b> for Pixinema, an exciting on-spot filmmaking challenge. Work with your team to create short films under time constraints and showcase your storytelling skills.",
         price: "TBA",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24vkqxoSV9aFJcVUTm3KZH6EqxCzgeGjNBtrIS",
+        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24TLIxY4NajhWqmLiJe26Fk9OYIKo038PdQ5ZS",
         registrationurl: "https://forms.gle/iihjrV5MqutRNuNe7",
         eventmanageremail: "pixelation@arsd.du.ac.in"
     }
