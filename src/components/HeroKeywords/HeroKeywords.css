@@ -4,7 +4,7 @@
   max-width: 12rem;
 }
 
-.hero-keywords > span {
+.keyword{
   background-color: hsla(0, 0%, 30%, 0.5);
   font-size: 0.7rem;
   line-height: 0.8rem;
@@ -15,7 +15,7 @@
   margin-right: 0.2rem;
   border-radius: 100px;
   backdrop-filter: blur(8px);
-  border-color: rgb(200, 200, 200);
+  border-color: hsl(0, 0%, 45%);
   border-width: 0.1px;
   margin-top: 0.2rem;
 }

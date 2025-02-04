@@ -1,17 +1,18 @@
 import React from 'react'
 import './HeroKeywords.css'
+import { Link } from '@chakra-ui/react'
 
 interface HeroKeywordsProps {
-  keywords: string[]
+  keywords: string[],
 }
 
 const HeroKeywords: React.FC<HeroKeywordsProps> = ({ keywords }) => {
   return (
     <div className='hero-keywords'>
       {keywords.map((keyword, index) => (
-        <span key={index} className='keyword'>
+        <Link key={index} href='https://www.instagram.com/pixelation.arsd/' target='_blank' className='keyword'>
           {keyword}
-        </span>
+        </Link>
       ))}
     </div>
   )
