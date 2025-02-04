@@ -5,40 +5,40 @@ import Right from '@/components/Event/Right';
 
 const Events = [
     {
-        name: "FILMCRAFT",
-        location: "SEM HALL 1",
-        date: "31/01/25",
-        time: "STARTING 11:30 AM",
-        agenda: "An an <b>immersive learning experience</b> designed to guide you through the intricacies of filmmaking, from conceptualizing ideas to crafting visually stunning narratives.",
-        details: "Join us on <b>31st January</b> at <b>12:00 PM</b> in <b>Seminar Hall 1, ARSD College</b>, for an exciting and creative experience. There are <b>no entry fees</b>, so come, create, and explore the world of photography with us. Don't miss this opportunity to enhance your skills and engage with like-minded individuals.",
-        price: "FREE AND OPEN TO ALL",
-        image: "https://picsum.photos/id/15/500/800",
-        registrationurl: "https://www.google.com",
-        eventmanageremail: "example@example.com"
-    },
-    {
-        name: "PHOTOQUEST",
-        location: "AUDITORIUM",
-        date: "01/02/25",
+        name: "LENS EYE",
+        location: "ARSD CAMPUS",
+        date: "24/02/25",
         time: "STARTING 10:00 AM",
-        agenda: "Showcase your photography skills and compete with fellow enthusiasts in a thrilling contest.",
-        details: "Participate in our <b>Photography Contest</b> on <b>1st February</b> at <b>10:00 AM</b> in the <b>Auditorium</b>. Capture stunning moments and stand a chance to win exciting prizes. Entry is <b>free</b> for all participants.",
-        price: "FREE ENTRY",
-        image: "https://picsum.photos/id/16/500/800",
-        registrationurl: "https://www.google.com",
-        eventmanageremail: "example@example.com"
+        agenda: "In this fast-paced competition, shutterbugs demonstrated their prowess in capturing the essence of fleeting moments. Participants roamed the campus, capturing scenes that resonated with the event's theme, showcasing their keen eye for detail and composition.",
+        details: "Join us on <b>24th February</b> at <b>10:00 AM</b> in <b>ARSD Campus</b> for an exhilarating on-spot filmmaking competition. Test your skills, creativity, and quick thinking to craft stunning visual stories on the go.",
+        price: "TBA",
+        image: "https://picsum.photos/id/15/500/800",
+        registrationurl: "https://forms.gle/k3oGCQMXjWDDxm7YA",
+        eventmanageremail: "pixelation@arsd.du.ac.in"
     },
     {
-        name: "SCREENFEST",
-        location: "SEMINAR HALL 2",
-        date: "02/02/25",
-        time: "STARTING 2:00 PM",
-        agenda: "Enjoy a curated selection of short films from emerging filmmakers.",
-        details: "Join us for a <b>Film Screening</b> on <b>2nd February</b> at <b>2:00 PM</b> in <b>Seminar Hall 2</b>. Experience a variety of short films and engage in discussions with the filmmakers. The event is <b>free</b> and open to all.",
-        price: "PRICE 100RS",
+        name: "CHRONO TALES",
+        location: "ONLINE",
+        date: "TBA",
+        time: "TBA",
+        agenda: "Chrono Tales provided a virtual canvas for participants to weave captivating narratives through the lens of photography. Through an online platform, students unleashed their creativity, capturing moments and emotions to craft visually stunning photostories.",
+        details: "Participate in <b>Chrono Tales</b>, our online photostory competition, and let your creativity shine. Capture moments, tell stories, and showcase your vision in a stunning visual format.",
+        price: "TBA",
+        image: "https://picsum.photos/id/16/500/800",
+        registrationurl: "https://forms.gle/vUb4sEGQvy9MPYKh8",
+        eventmanageremail: "pixelation@arsd.du.ac.in"
+    },
+    {
+        name: "PIXINEMA",
+        location: "ARSD CAMPUS",
+        date: "25/02/25",
+        time: "STARTING 11:00 AM",
+        agenda: "Pixinema sparked creativity and camaraderie among participants who crafted compelling short films on the spot. Teams of budding filmmakers showcased their storytelling prowess under pressure, resulting in a display of remarkable ingenuity and teamwork.",
+        details: "Join us on <b>25th February</b> at <b>11:00 AM</b> in <b>ARSD Campus</b> for Pixinema, an exciting on-spot filmmaking challenge. Work with your team to create short films under time constraints and showcase your storytelling skills.",
+        price: "TBA",
         image: "https://picsum.photos/id/17/500/800",
-        registrationurl: "https://www.google.com",
-        eventmanageremail: "example@example.com"
+        registrationurl: "https://forms.gle/iihjrV5MqutRNuNe7",
+        eventmanageremail: "pixelation@arsd.du.ac.in"
     }
 ];
 
