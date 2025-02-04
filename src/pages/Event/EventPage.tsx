@@ -1,12 +1,12 @@
 import React from 'react';
-import { GridItem, SimpleGrid } from '@chakra-ui/react';
+import { GridItem, SimpleGrid, Box } from '@chakra-ui/react';
 import Left from '@/components/Event/Left';
 import Right from '@/components/Event/Right';
 
 const EventPage: React.FC = () => {
     return (
         <div className='section2'>
-            {/* First Instance of the Event */}
+            {/* First Event */}
             <SimpleGrid columns={{ base: 1, md: 4 }} gap={8}>
                 <GridItem colSpan={{ base: 1, md: 2 }}>
                     <Left name='WORKSHOP' location='SEM HALL 1' date='31/01/25' time='STARTING 11:30 AM' agenda="An an <b>immersive learning experience</b> designed to guide you through the intricacies of filmmaking, from conceptualizing ideas to crafting visually stunning narratives." />
@@ -16,8 +16,11 @@ const EventPage: React.FC = () => {
                 </GridItem>
             </SimpleGrid>
 
-            {/* Duplicate Instance of the Event */}
-            <SimpleGrid columns={{ base: 1, md: 4 }} gap={8} mt={10}>
+            {/* Spacer to ensure the second event is below */}
+            <Box h={10} />
+
+            {/* Second Event (Below the First One) */}
+            <SimpleGrid columns={{ base: 1, md: 4 }} gap={8}>
                 <GridItem colSpan={{ base: 1, md: 2 }}>
                     <Left name='WORKSHOP' location='SEM HALL 1' date='31/01/25' time='STARTING 11:30 AM' agenda="An an <b>immersive learning experience</b> designed to guide you through the intricacies of filmmaking, from conceptualizing ideas to crafting visually stunning narratives." />
                 </GridItem>
@@ -30,4 +33,5 @@ const EventPage: React.FC = () => {
 };
 
 export default EventPage;
+
 
