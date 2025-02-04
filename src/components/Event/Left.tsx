@@ -7,25 +7,27 @@ interface LeftProps {
     location: string,
     date: string,
     time: string,
-    agenda: string
+    agenda: string,
+    image: string,
+    eventmanageremail: string
 }
 
-const Left: React.FC<LeftProps> = ({ name, location, date, time, agenda }) => {
+const Left: React.FC<LeftProps> = React.memo(({ name, location, date, time, agenda, image, eventmanageremail }) => {
     return (
         <Container flex="1" p={0} w="full" h="full" display="flex" flexDirection="column" justifyContent="space-between">
             <Container display="flex" justifyContent="space-between" p={0} fontSize="xs" color="fg.muted">
-                <ChakraLink>
+                <ChakraLink asChild>
                     <Link to="/">HOME</Link>
                 </ChakraLink>
-                <ChakraLink>
-                    <Link to="/">CONTACT US</Link>
+                <ChakraLink href={`mailto:${eventmanageremail}`} target="_blank" rel="noopener noreferrer">
+                    CONTACT EVENT MANAGER
                 </ChakraLink>
             </Container>
             <Container p="0" mt="3">
-                <Text fontSize="7xl" textAlign="center" lineHeight="shorter" p="0" fontWeight="black" mb="0">
+                <Text fontSize={{ base: "4xl", md: "7xl" }} textAlign="center" lineHeight="shorter" p="0" fontWeight="black" mb="0">
                     {name}
                 </Text>
-                <Image src="/images.jpg" alt="conference" w="full" h="200px" />
+                <Image src={image} alt="conference" w="full" h={{ base: "150px", md: "200px" }} />
                 <Container display="flex" justifyContent="space-between" p={0} mt={3} color="gray.300" fontSize="x-small">
                     <Text>{location}</Text>
                     <Text>{date}</Text>
@@ -40,6 +42,6 @@ const Left: React.FC<LeftProps> = ({ name, location, date, time, agenda }) => {
             </Container>
         </Container>
     );
-};
+});
 
 export default Left;
