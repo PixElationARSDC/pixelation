@@ -1,7 +1,8 @@
 import React from 'react';
-import { Button, Container, Em, Heading, IconButton, Text, Separator, Image, HStack, Link } from '@chakra-ui/react';
+import { Button, Container, Em, Heading, IconButton, Text, Separator, Image, Link, Group } from '@chakra-ui/react';
 import { ArrowUpRight, ArrowUp } from 'lucide-react';
-import './ContactUsPage.css'
+import './ContactUsPage.css';
+import { FiYoutube, FiInstagram } from "react-icons/fi";
 
 const ContactUsPage: React.FC = () => {
     const [year,] = React.useState(new Date().getFullYear());
@@ -39,22 +40,37 @@ const ContactUsPage: React.FC = () => {
                         </span>{' '}
                         with us
                     </Text>
-                    <Text fontSize="lg" fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '50%' }} textAlign={{ base: 'center', md: 'right' }}>
-                        PixElation<br />
-                        Atma Ram Sanatan Dharma College<br />
-                        Dhaula Kuan, New Delhi, 110021<br />
-                        <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank"
-                        >
-                            pixelation@arsd.du.ac.in
-                        </Link>
-                    </Text>
+                    <Container display={"flex"} flexDirection={"column"} alignItems={{ base: "center", md: "end" }} p={0}>
+                        <Text fontSize="lg" fontWeight="light" color="gray.300" mt={10} w={{ base: '100%', md: '50%' }} textAlign={{ base: 'center', md: 'right' }}>
+                            PixElation<br />
+                            Atma Ram Sanatan Dharma College<br />
+                            Dhaula Kuan, New Delhi, 110021<br />
+                            <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank"
+                            >
+                                pixelation@arsd.du.ac.in
+                            </Link>
+                        </Text>
+                        <Group gap={2} mt={2}>
+                            <Link href="https://www.youtube.com/@PixElation_arsd" target="_blank" rel="noopener noreferrer">
+                                <IconButton rounded={"full"}><FiYoutube /></IconButton>
+                            </Link>
+                            <Link href="https://www.instagram.com/pixelation.arsd/" target="_blank" rel="noopener noreferrer">
+                                <IconButton rounded={"full"}><FiInstagram /></IconButton>
+                            </Link>
+                        </Group>
+                    </Container>
                 </Container>
                 <Separator my={10} borderColor={'gray.300'} size={"md"} rounded={"full"} />
                 <Container display={{ base: 'block', md: 'flex' }} p={0} justifyContent={"space-between"} alignItems={"center"}>
-                    <HStack justifyContent={{ base: 'center', md: 'flex-start' }} mb={{ base: 4, md: 0 }}>
-                        <Image src='/logo.png' alt='logo' height='40px' />
-                        <Image src='/logoarsd.png' alt='logo' height='40px' />
-                    </HStack>
+                    <Group justifyContent={{ base: 'center', md: 'flex-start' }} mb={{ base: 4, md: 0 }} w={"full"}>
+                        <Link href='/' _focus={{ outline: 'none' }}>
+                            <Image src='/logo.png' alt='logo' height='50px' />
+                        </Link>
+                        <Link href='https://arsdcollege.ac.in' _focus={{ outline: 'none' }} target='_blank'>
+                            <Image src='/logoarsd.png' alt='logo' height='50px' />
+                        </Link>
+                    </Group>
+
                     <Text fontSize="sm" fontWeight="light" color="gray.300" w={{ base: '100%', md: '50%' }} textAlign={"center"}>
                         @{year} PixElation. All rights reserved.
                     </Text>
