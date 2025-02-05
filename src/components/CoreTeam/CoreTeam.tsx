@@ -1,6 +1,7 @@
-import { Container, Em, Heading, Image, Text, Skeleton, Link } from '@chakra-ui/react';
+import { Container, Heading, Image, Text, Skeleton, Link } from '@chakra-ui/react';
 import React, { memo, Suspense } from 'react';
 import 'swiper/swiper-bundle.css';
+import Marquee from 'react-fast-marquee';
 
 const CoreTeamMembers = [
 
@@ -111,7 +112,7 @@ interface Member {
 }
 
 const CoreTeamMember = memo(({ member }: { member: Member }) => (
-    <Container p={4} w={{ base: "100%", sm: "45%", md: "30%", lg: "22%" }} display={"flex"} flexDirection={"column"} alignItems={"center"} bg={"bg.muted"} m={0} rounded={"md"}>
+    <Container p={4} w={"300px"} display={"flex"} flexDirection={"column"} alignItems={"center"} bg={"bg.muted"} mx={2} rounded={"md"}>
         <Image src={member.avatar} alt={member.name} rounded={"full"} h="90px" mb={4} loading="lazy" />
         <Container textAlign="center">
             <Heading size="lg">{member.name}</Heading>
@@ -127,21 +128,20 @@ const CoreTeamMember = memo(({ member }: { member: Member }) => (
 
 const CoreTeam: React.FC = memo(() => {
     return (
-        <Container p={0} spaceY={14} display={"flex"} flexDirection={"column"} justifyContent={"space-around"} w="100%" id="coreteam"  >
+        <Container p={0} spaceY={14} display={"flex"} flexDirection={"column"} justifyContent={"space-around"} w="100%" id="coreteam" >
             <Heading size={'4xl'}>
-                Core <Em>Team</Em>
+                Core <em>Team</em>
             </Heading>
-
             <Text fontSize={'xl'} color={"fg.muted"} w={{ base: "100%", md: "60%" }}>
                 Meet the dedicated members of PixElation, the creative club at Delhi University, who are striving to make a difference through innovation and teamwork.
             </Text>
-            <Container display={"flex"} flexDirection={"row"} flexWrap={"wrap"} w="100%" gap={5} justifyContent={"center"} p={0} m={0}>
+            <Marquee pauseOnHover speed={100} gradient={true} gradientColor="black" gradientWidth="100px">
                 {CoreTeamMembers.map((member, index) => (
                     <Suspense fallback={<Skeleton height="200px" width="100%" />} key={index}>
                         <CoreTeamMember member={member} />
                     </Suspense>
                 ))}
-            </Container>
+            </Marquee>
         </Container>
     );
 });
