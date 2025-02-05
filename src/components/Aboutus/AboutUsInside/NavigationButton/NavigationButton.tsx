@@ -3,7 +3,7 @@ import { Stack, Button } from '@chakra-ui/react';
 const Links = [
   {
     name: 'Teachers and Convenor',
-    href: 'https://e3drhrp76t.ufs.sh/f/FC5XEMhJbGcVJhiiIJRXC3HgM2or7WuQUD8qlsEjYi1SOV6n',
+    href: 'https://e3drhrp76t.ufs.sh/f/FC5XEMhJbGcVBVYS9beHneF8byZuphU4IKrRsgqEM29dz7ik',
   },
   {
     name: 'Members and Core Team',
