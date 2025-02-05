@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Container, Em, Heading, IconButton, Text, Separator, Image, Link, Group } from '@chakra-ui/react';
 import { ArrowUpRight, ArrowUp } from 'lucide-react';
 import './ContactUsPage.css';
-import { FiYoutube, FiInstagram } from "react-icons/fi";
+import { FiYoutube, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 const ContactUsPage: React.FC = () => {
     return (
@@ -25,22 +25,22 @@ const ContactUsPage: React.FC = () => {
                             <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" gapX={0}>
                                 <Button
                                     rounded="full"
-                                    size={{base: "sm", md: "lg"}}
+                                    size={{ base: "sm", md: "lg" }}
                                     px={6}
-                                    fontSize={{base: "sm", md: "lg"}}
+                                    fontSize={{ base: "sm", md: "lg" }}
                                     bg="white"
                                     color="black"
                                     _hover={{ bg: "gray.300" }}
                                 >
                                     LET'S TALK
                                 </Button>
-                                <IconButton rounded="full" size={{base: "sm", md: "lg"}} aria-label="Arrow Right"><ArrowUpRight /></IconButton>
+                                <IconButton rounded="full" size={{ base: "sm", md: "lg" }} aria-label="Arrow Right"><ArrowUpRight /></IconButton>
                             </Link>
                         </span>{' '}
                         with us
                     </Text>
                     <Container display={"flex"} flexDirection={"column"} alignItems={{ base: "center", md: "end" }} p={0}>
-                        <Text fontSize={{ base: "md", md: "lg"}} fontWeight="light" color="gray.300" mt={10} w={"full"} textAlign={{ base: 'center', md: 'right' }}>
+                        <Text fontSize={{ base: "md", md: "lg" }} fontWeight="light" color="gray.300" mt={10} w={"full"} textAlign={{ base: 'center', md: 'right' }}>
                             PixElation<br />
                             Atma Ram Sanatan Dharma College<br />
                             Dhaula Kuan, New Delhi, 110021<br />
@@ -55,6 +55,9 @@ const ContactUsPage: React.FC = () => {
                             </Link>
                             <Link href="https://www.instagram.com/pixelation.arsd/" target="_blank" rel="noopener noreferrer">
                                 <IconButton rounded={"full"}><FiInstagram /></IconButton>
+                            </Link>
+                            <Link href="https://www.linkedin.com/company/pixelation-arsd" target="_blank" rel="noopener noreferrer">
+                                <IconButton rounded={"full"}><FiLinkedin /></IconButton>
                             </Link>
                         </Group>
                     </Container>
