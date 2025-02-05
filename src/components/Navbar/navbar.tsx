@@ -95,12 +95,12 @@ const Navbar = () => {
               </DrawerHeader>
               <DrawerBody>
                 <VStack gap={4} mt={10}>
-                  <Button asChild w="100%" onClick={onClose}><a href={"#"}>Home</a></Button>
-                  <Button asChild w="100%" onClick={onClose}><a href={"#aboutus"}>About</a></Button>
-                  <Button asChild w="100%" onClick={onClose}><a href={"#ourwork"}>Our Work</a></Button>
-                  <Button asChild w="100%" onClick={onClose}><a href={"#ourteam"}>Our Team</a></Button>
-                  <Button asChild w="100%" onClick={onClose}><a href={"#contact"}>Contact</a></Button>
-                  <Button asChild w="100%" onClick={onClose}>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#"}>Home</a></Button>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#aboutus"}>About</a></Button>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#ourwork"}>Our Work</a></Button>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#ourteam"}>Our Team</a></Button>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#contact"}>Contact</a></Button>
+                  <Button rounded={"full"} asChild w="100%" onClick={onClose}>
                     <Link to="/events">Events</Link>
                   </Button>
                 </VStack>
