@@ -1,5 +1,5 @@
-import { Container, Link as ChakraLink, Text, Image } from '@chakra-ui/react';
-import React from 'react';
+import { Container, Link as ChakraLink, Text, Skeleton, Image } from '@chakra-ui/react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 interface LeftProps {
@@ -13,6 +13,18 @@ interface LeftProps {
 }
 
 const Left: React.FC<LeftProps> = React.memo(({ name, location, date, time, agenda, image, eventmanageremail }) => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const img = new window.Image();
+        img.src = image;
+        if (img.complete) {
+            setIsLoading(false);
+        } else {
+            img.onload = () => setIsLoading(false);
+        }
+    }, [image]);
+
     return (
         <Container flex="1" p={0} w="full" h="full" display="flex" flexDirection="column" justifyContent="space-between">
             <Container display="flex" justifyContent="space-between" p={0} fontSize="xs" color="fg.muted">
@@ -27,7 +39,15 @@ const Left: React.FC<LeftProps> = React.memo(({ name, location, date, time, agen
                 <Text fontSize={{ base: "4xl", md: "7xl" }} textAlign="center" lineHeight="shorter" p="0" fontWeight="black" mb="0">
                     {name}
                 </Text>
-                <Image src={image} alt="conference" w="full" h={{ base: "150px", md: "200px" }} />
+                {isLoading && <Skeleton w="full" h={{ base: "150px", md: "200px" }} />}
+                <Image
+                    src={image}
+                    alt="conference"
+                    w="full"
+                    h={{ base: "150px", md: "200px" }}
+                    loading="lazy"
+                    display={isLoading ? "none" : "block"}
+                />
                 <Container display="flex" justifyContent="space-between" p={0} mt={3} color="gray.300" fontSize="x-small">
                     <Text>{location}</Text>
                     <Text>{date}</Text>

@@ -67,9 +67,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
   --dot-bg: black;
   --dot-color: hsl(0, 0%, 20%);
   --dot-size: 1px;

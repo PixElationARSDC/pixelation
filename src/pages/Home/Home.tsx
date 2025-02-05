@@ -9,7 +9,7 @@ import SplashCursor from '@/components/ui/Background'
 const Home: React.FC = () => {
   return (
     <div>
-      <SplashCursor/>
+      <SplashCursor />
       <HeroPage />
       <AboutPage />
       <OurWork />
