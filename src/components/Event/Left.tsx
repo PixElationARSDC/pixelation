@@ -28,10 +28,10 @@ const Left: React.FC<LeftProps> = React.memo(({ name, location, date, time, agen
     return (
         <Container flex="1" p={0} w="full" h="full" display="flex" flexDirection="column" justifyContent="space-between">
             <Container display="flex" justifyContent="space-between" p={0} fontSize="xs" color="fg.muted">
-                <ChakraLink asChild>
+                <ChakraLink asChild aria-label="Home">
                     <Link to="/">HOME</Link>
                 </ChakraLink>
-                <ChakraLink href={`mailto:${eventmanageremail}`} target="_blank" rel="noopener noreferrer">
+                <ChakraLink href={`mailto:${eventmanageremail}`} target="_blank" rel="noopener noreferrer" aria-label="Contact Event Manager">
                     CONTACT EVENT MANAGER
                 </ChakraLink>
             </Container>

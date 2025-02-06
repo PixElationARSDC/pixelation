@@ -1,45 +1,92 @@
 <!doctype html>
 <html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="title" content="Pixelation" />
-    <meta
-      name="description"
-      content="Photographs hold memories!"
-    />
-    <meta
-      name="keywords"
-      content="pixelation, photography, showcase"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="language" content="English" />
-    <meta name="author" content="Pixelation" />
-    <meta name="og:title" property="og:title" content="MacBease" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://pixelation.live" />
-    <meta
-      property="og:description"
-      content="Photographs hold memories!"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/logo.avif" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
+  <title>PixElation - Photography & Videography Society</title>
+  <meta name="title" content="PixElation - Photography & Videography Society" />
+  <meta name="description"
+    content="PixElation, the Photography and Videography Society of ARSD College, DU, founded in 2017, is dedicated to nurturing photographers and videographers." />
+  <meta name="keywords"
+    content="PixElation, photography, videography, Delhi University, ARSD College, photo-walks, competitions, workshops, TASVEER" />
+  <meta name="author"
+    content="Pixelation Society | Developer: Harshit Shukla | GitHub: https://www.github.com/harshitshukla-dev | LinkedIn: https://www.linkedin.com/in/harshitshuklaa | Email: harshitshukla.work+pix@gmail.com" />
+  <meta name="robots" content="index, follow" />
 
 
-    <!-- font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Gloock&display=swap"
-      rel="stylesheet"
-    />
-    <!-- font end -->
-    <title>Pixelation</title>
-  </head>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="PixElation - Photography & Videography Society" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pixelation.live" />
+  <meta property="og:description"
+    content="Join PixElation, ARSD College's Photography & Videography Society. Participate in competitions, workshops, and our annual fest TASVEER!" />
+  <meta property="og:image" content="https://pixelation.live/logo.avif" />
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PixElation - Photography & Videography Society" />
+  <meta name="twitter:description"
+    content="Join PixElation, ARSD College's Photography & Videography Society. Participate in competitions, workshops, and our annual fest TASVEER!" />
+  <meta name="twitter:image" content="https://pixelation.live/logo.avif" />
+
+  <!-- Canonical Tag (Avoid Duplicate URLs) -->
+  <link rel="canonical" href="https://pixelation.live" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "PixElation - Photography & Videography Society",
+      "url": "https://pixelation.live",
+      "logo": "https://pixelation.live/logo.avif",
+      "description": "PixElation, the Photography and Videography Society of Atma Ram Sanatan Dharma College, University of Delhi, founded in 2017, is dedicated to nurturing photographers and videographers by providing learning opportunities, workshops, competitions, and exposure.",
+      "email": "pixelation@arsd.du.ac.in",
+      "foundingDate": "2017",
+      "founder": {
+        "@type": "Person",
+        "name": "PixElation Founding Members"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Atma Ram Sanatan Dharma College",
+        "addressLocality": "New Delhi",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "pixelation@arsd.du.ac.in",
+        "availableLanguage": ["English", "Hindi"]
+      },
+      "sameAs": [
+        "https://www.youtube.com/@PixElation_arsd",
+        "https://www.instagram.com/pixelation.arsd/",
+        "https://www.linkedin.com/company/pixelation-arsd"
+      ]
+    }
+  </script>
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&family=Gloock&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100..900&family=Gloock&display=swap" rel="stylesheet" />
+  </noscript>
+
+  <!-- Hero image -->
+  <link rel="preload" href="https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lOftB05oUYRvzh0Iw9Dtm6cO78Laq1Gls5gZA" as="image">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx" defer></script>
+</body>
+
 </html>

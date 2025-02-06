@@ -1,0 +1,10 @@
+# robots.txt for Pixelation
+
+User-agent: *
+Allow: /
+Allow: /events/
+Allow: /our-team/
+Allow: /our-work/
+Allow: /about-us/
+
+Sitemap: https://pixelation.live/sitemap.xml

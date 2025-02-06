@@ -45,6 +45,7 @@ const NavigationButtons = () => {
             borderRadius="full"
             width={["100%", "250px"]}
             onClick={() => handleOpen(link.imageurl, link.name)}
+            aria-label="Open Image"
           >
             {link.name}
           </Button>
@@ -71,7 +72,7 @@ const NavigationButtons = () => {
           </DialogBody>
           <DialogFooter>
             <DialogCloseTrigger>
-              <IconButton variant="ghost" onClick={() => setOpen(false)}><X /></IconButton>
+              <IconButton variant="ghost" onClick={() => setOpen(false)} aria-label="Close"><X /></IconButton>
             </DialogCloseTrigger>
           </DialogFooter>
         </DialogContent>

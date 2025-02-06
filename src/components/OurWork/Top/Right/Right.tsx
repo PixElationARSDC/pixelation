@@ -18,12 +18,12 @@ const Right: React.FC<RightProps> = ({ text }) => {
         color={'gray.300'}
         fontFamily={'body'}
       />
-      <a href='https://www.instagram.com/pixelation.arsd/' target='_blank' rel='noreferrer'>
+      <a href='https://www.instagram.com/pixelation.arsd/' target='_blank' rel='noreferrer' aria-label='Explore More'>
         <Group gap={0}>
-          <Button variant={'outline'} rounded='full' px={7}>
+          <Button variant={'outline'} rounded='full' px={7} aria-label='Explore More'>
             Explore More
           </Button>
-          <IconButton rounded='full'>
+          <IconButton rounded='full' aria-label='Arrow Right'>
             <ArrowRight />
           </IconButton>
         </Group>

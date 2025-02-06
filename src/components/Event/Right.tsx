@@ -18,12 +18,12 @@ const Right: React.FC<RightProps> = React.memo(({ details, price, registrationur
             <Separator borderColor="gray.500" my={10} />
             <Container mt={[3, 5]} display="flex" justifyContent="space-between" alignItems="center">
                 <Text fontSize={["xs", "sm"]} color="fg.muted">{price}</Text>
-                <Link href={registrationurl} target="_blank" rel="noopener noreferrer" _hover={{ textDecoration: "none" }}>
+                <Link href={registrationurl} target="_blank" rel="noopener noreferrer" _hover={{ textDecoration: "none" }} aria-label="Register Now">
                     <Group gap={0}>
-                        <Button variant="surface" borderColor="gray.500" rounded="full" px={[5, 7]}>
+                        <Button variant="surface" borderColor="gray.500" rounded="full" px={[5, 7]} aria-label="Register Now">
                             Register Now
                         </Button>
-                        <IconButton rounded="full">
+                        <IconButton rounded="full" aria-label="Register Now">
                             <ArrowRight />
                         </IconButton>
                     </Group>

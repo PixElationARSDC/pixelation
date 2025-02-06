@@ -1,0 +1,33 @@
+██████╗ ██╗██╗  ██╗███████╗██╗      █████╗ ████████╗██╗ ██████╗ ███╗   ██╗
+██╔══██╗██║╚██╗██╔╝██╔════╝██║     ██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║
+██████╔╝██║ ╚███╔╝ █████╗  ██║     ███████║   ██║   ██║██║   ██║██╔██╗ ██║
+██╔═══╝ ██║ ██╔██╗ ██╔══╝  ██║     ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║
+██║     ██║██╔╝ ██╗███████╗███████╗██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║
+╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+                                                                          
+/*--------------------------------------*/
+/*           HUMANS.TXT                 */
+/*--------------------------------------*/
+
+/* TEAM */
+
+╦ ╦┌─┐┬─┐┌─┐┬ ┬┬┌┬┐  ╔═╗┬ ┬┬ ┬┬┌─┬  ┌─┐
+╠═╣├─┤├┬┘└─┐├─┤│ │   ╚═╗├─┤│ │├┴┐│  ├─┤
+╩ ╩┴ ┴┴└─└─┘┴ ┴┴ ┴   ╚═╝┴ ┴└─┘┴ ┴┴─┘┴ ┴
+
+Developer: Harshit Shukla
+GitHub: https://www.github.com/harshitshukla-dev
+LinkedIn: https://www.linkedin.com/in/harshitshuklaa
+Email: harshitshukla.work+pix@gmail.com
+
+/* TECHNOLOGIES USED */
+Built with: Vite, TSX, Chakra UI, SWC, React Bits
+
+/* SITE */
+Site: https://pixelation.live
+Purpose: Pixelation - Photography & Videography Society
+
+/* LOVE */
+Made with ❤️ by Harshit Shukla
+
+/*--------------------------------------*/

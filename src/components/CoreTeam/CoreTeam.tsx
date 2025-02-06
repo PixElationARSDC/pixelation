@@ -19,7 +19,7 @@ const CoreTeamMember = memo(({ member }: { member: Member }) => (
         <Container textAlign="center">
             <Heading size="lg">{member.name}</Heading>
             <Heading size="md" color={"fg.muted"}>{member.role}</Heading>
-            <Link href={`https://www.instagram.com/${member.username}`} target="_blank" rel="noopener noreferrer">
+            <Link href={`https://www.instagram.com/${member.username}`} target="_blank" rel="noopener noreferrer" aria-label={`Instagram profile of ${member.username}`}>
                 <Heading size={"sm"} color={"fg.muted"}>
                     @{member.username}
                 </Heading>
@@ -38,11 +38,11 @@ const CoreTeam: React.FC = memo(() => {
                 Meet the dedicated members of PixElation, the creative club at Delhi University, who are striving to make a difference through innovation and teamwork.
             </Text>
             <Group gap={0}>
-                <RRDLink to="/our-team">
-                    <Button variant={'outline'} rounded='full' px={10}>
+                <RRDLink to="/our-team" aria-label="View All Team Members">
+                    <Button variant={'outline'} rounded='full' px={10} aria-label="View All">
                         View All
                     </Button>
-                    <IconButton rounded='full'>
+                    <IconButton rounded='full' aria-label="View All">
                         <ArrowRight />
                     </IconButton>
                 </RRDLink>

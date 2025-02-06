@@ -22,7 +22,7 @@ const ContactUsPage: React.FC = () => {
                                 gap: 0
                             }}
                         >
-                            <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" gapX={0}>
+                            <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" gapX={0} aria-label="Let's talk">
                                 <Button
                                     rounded="full"
                                     size={{ base: "sm", md: "lg" }}
@@ -31,6 +31,7 @@ const ContactUsPage: React.FC = () => {
                                     bg="white"
                                     color="black"
                                     _hover={{ bg: "gray.300" }}
+                                    aria-label="Let's Talk"
                                 >
                                     LET'S TALK
                                 </Button>
@@ -44,20 +45,19 @@ const ContactUsPage: React.FC = () => {
                             PixElation<br />
                             Atma Ram Sanatan Dharma College<br />
                             Dhaula Kuan, New Delhi, 110021<br />
-                            <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank"
-                            >
+                            <Link href="mailto:pixelation@arsd.du.ac.in" target="_blank" aria-label="Email PixElation">
                                 pixelation@arsd.du.ac.in
                             </Link>
                         </Text>
                         <Group gap={2} mt={2}>
-                            <Link href="https://www.youtube.com/@PixElation_arsd" target="_blank" rel="noopener noreferrer">
-                                <IconButton rounded={"full"}><FiYoutube /></IconButton>
+                            <Link href="https://www.youtube.com/@PixElation_arsd" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                                <IconButton rounded={"full"} aria-label="YouTube"><FiYoutube /></IconButton>
                             </Link>
-                            <Link href="https://www.instagram.com/pixelation.arsd/" target="_blank" rel="noopener noreferrer">
-                                <IconButton rounded={"full"}><FiInstagram /></IconButton>
+                            <Link href="https://www.instagram.com/pixelation.arsd/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <IconButton rounded={"full"} aria-label="Instagram"><FiInstagram /></IconButton>
                             </Link>
-                            <Link href="https://www.linkedin.com/company/pixelation-arsd" target="_blank" rel="noopener noreferrer">
-                                <IconButton rounded={"full"}><FiLinkedin /></IconButton>
+                            <Link href="https://www.linkedin.com/company/pixelation-arsd" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <IconButton rounded={"full"} aria-label="LinkedIn"><FiLinkedin /></IconButton>
                             </Link>
                         </Group>
                     </Container>
@@ -65,11 +65,11 @@ const ContactUsPage: React.FC = () => {
                 <Separator my={10} borderColor={'gray.300'} size={"md"} rounded={"full"} />
                 <Container display={{ base: 'block', md: 'flex' }} p={0} justifyContent={"space-between"} alignItems={"center"}>
                     <Group justifyContent={{ base: 'center', md: 'flex-start' }} mb={{ base: 4, md: 0 }} w={"full"}>
-                        <Link href='/' _focus={{ outline: 'none' }}>
-                            <Image src='/logo.png' alt='logo' height='50px' />
+                        <Link href='/' _focus={{ outline: 'none' }} aria-label="Home">
+                            <Image src='/logo.avif' alt='logo' height='50px' />
                         </Link>
-                        <Link href='https://arsdcollege.ac.in' _focus={{ outline: 'none' }} target='_blank'>
-                            <Image src='/logoarsd.png' alt='logo' height='50px' />
+                        <Link href='https://arsdcollege.ac.in' _focus={{ outline: 'none' }} target='_blank' aria-label="ARSD College">
+                            <Image src='/logoarsd.avif' alt='logo' height='50px' />
                         </Link>
                     </Group>
 

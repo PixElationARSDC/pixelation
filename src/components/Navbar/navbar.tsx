@@ -28,11 +28,11 @@ const Navbar = () => {
     <Container p="0" display="flex" justifyContent="space-between" alignItems="center">
       {/* Logo Section */}
       <Group>
-        <ChakraLink href='/' _focus={{ outline: 'none' }}>
-          <Image src='/logo.png' alt='logo' height='50px' />
+        <ChakraLink href='/' _focus={{ outline: 'none' }} aria-label='Home'>
+          <Image src='/logo.avif' alt='logo' height='50px' />
         </ChakraLink>
-        <ChakraLink href='https://arsdcollege.ac.in' _focus={{ outline: 'none' }} target='_blank'>
-          <Image src='/logoarsd.png' alt='logo' height='50px' />
+        <ChakraLink href='https://arsdcollege.ac.in' _focus={{ outline: 'none' }} target='_blank' aria-label='ARSD College'>
+          <Image src='/logoarsd.avif' alt='logo' height='50px' />
         </ChakraLink>
       </Group>
 
@@ -41,11 +41,11 @@ const Navbar = () => {
         base: null,
         md: (
           <Group attached>
-            <Button rounded='full'>Home</Button>
-            <Button asChild><a href={"#aboutus"}>About</a></Button>
-            <Button asChild><a href={"#ourwork"}>Our Work</a></Button>
-            <Button asChild><a href={"#ourteam"}>Our Team</a></Button>
-            <Button asChild rounded='full'><a href={"#contact"}>Contact</a></Button>
+            <Button rounded='full' aria-label='home'>Home</Button>
+            <Button asChild><a href={"#aboutus"} aria-label='about us'>About</a></Button>
+            <Button asChild><a href={"#ourwork"} aria-label='our work'>Our Work</a></Button>
+            <Button asChild><a href={"#ourteam"} aria-label='our team'>Our Team</a></Button>
+            <Button asChild rounded='full'><a href={"#contact"} aria-label='contact us'>Contact</a></Button>
           </Group>
         )
       })}
@@ -55,10 +55,10 @@ const Navbar = () => {
         base: null,
         md: (
           <Group attached>
-            <Link to={"/events"}>
+            <Link to={"/events"} aria-label="Events">
               <Group gap={0}>
-                <Button rounded='full' px={7} tabIndex={-1}>Events</Button>
-                <IconButton rounded='full' tabIndex={-1}>
+                <Button rounded='full' px={7} tabIndex={-1} aria-label='Events'>Events</Button>
+                <IconButton rounded='full' tabIndex={-1} aria-label='Events'>
                   <ArrowRight />
                 </IconButton>
               </Group>
@@ -95,13 +95,23 @@ const Navbar = () => {
               </DrawerHeader>
               <DrawerBody>
                 <VStack gap={4} mt={10}>
-                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#"}>Home</a></Button>
-                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#aboutus"}>About</a></Button>
-                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#ourwork"}>Our Work</a></Button>
-                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#ourteam"}>Our Team</a></Button>
-                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose}><a href={"#contact"}>Contact</a></Button>
-                  <Button rounded={"full"} asChild w="100%" onClick={onClose}>
-                    <Link to="/events">Events</Link>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose} aria-label="Home">
+                    <a href={"#"} aria-label="Home">Home</a>
+                  </Button>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose} aria-label="About Us">
+                    <a href={"#aboutus"} aria-label="About Us">About</a>
+                  </Button>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose} aria-label="Our Work">
+                    <a href={"#ourwork"} aria-label="Our Work">Our Work</a>
+                  </Button>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose} aria-label="Our Team">
+                    <a href={"#ourteam"} aria-label="Our Team">Our Team</a>
+                  </Button>
+                  <Button rounded={"full"} variant="surface" asChild w="100%" onClick={onClose} aria-label="Contact Us">
+                    <a href={"#contact"} aria-label="Contact Us">Contact</a>
+                  </Button>
+                  <Button rounded={"full"} asChild w="100%" onClick={onClose} aria-label="Events">
+                    <Link to="/events" aria-label="Events">Events</Link>
                   </Button>
                 </VStack>
               </DrawerBody>
