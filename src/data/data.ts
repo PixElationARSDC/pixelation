@@ -64,7 +64,7 @@ export const CoreTeamMembers = [
     {
         name: 'Pranav Nandagiri',
         role: 'Coverage Head',
-        username: '_pranav_004',
+        username: '_pranav__004',
         avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBEOEOXMeohYwagUml8GryTXtvD70bijn9qPKL'
     },
     {
