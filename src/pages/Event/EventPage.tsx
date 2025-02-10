@@ -12,7 +12,7 @@ const Events = [
         time: "STARTING 10:00 AM",
         agenda: "In this fast-paced competition, shutterbugs demonstrate their prowess in capturing the essence of fleeting moments.",
         details: "Join us on <b>24th February</b> at <b>10:00 AM</b> in <b>ARSD Campus</b> for an exhilarating on-spot photography competition.",
-        price: "₹40",
+        price: "₹30",
         image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24T51Bp74NajhWqmLiJe26Fk9OYIKo038PdQ5Z",
         registrationurl: "https://forms.gle/k3oGCQMXjWDDxm7YA",
         eventmanageremail: "pixelation@arsd.du.ac.in"
