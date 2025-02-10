@@ -12,20 +12,20 @@ const Events = [
         time: "STARTING 10:00 AM",
         agenda: "In this fast-paced competition, shutterbugs demonstrate their prowess in capturing the essence of fleeting moments.",
         details: "Join us on <b>24th February</b> at <b>10:00 AM</b> in <b>ARSD Campus</b> for an exhilarating on-spot photography competition.",
-        price: "TBA",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24wo2RE9Ta5pbej9WY3qVSn7lKc8ftwduM0oEU",
+        price: "₹40",
+        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24T51Bp74NajhWqmLiJe26Fk9OYIKo038PdQ5Z",
         registrationurl: "https://forms.gle/k3oGCQMXjWDDxm7YA",
         eventmanageremail: "pixelation@arsd.du.ac.in"
     },
     {
         name: "CHRONO TALES",
         location: "ONLINE",
-        date: "TBA",
-        time: "TBA",
+        date: "22/02/25",
+        time: "Online",
         agenda: "Chrono Tales provides a virtual canvas for participants to weave captivating narratives through the lens of photography.",
         details: "Participate in <b>Chrono Tales</b>, our online photostory competition, and let your creativity shine.",
-        price: "TBA",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24Z5Mu5MlM2m6tHdnjkPfWgSB0siVJcYRDua8x",
+        price: "₹20",
+        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24RBqjxQyXJQb51Ek3rHzvMuxpKS9BLiC7eqOw",
         registrationurl: "https://forms.gle/vUb4sEGQvy9MPYKh8",
         eventmanageremail: "pixelation@arsd.du.ac.in"
     },
@@ -36,8 +36,8 @@ const Events = [
         time: "STARTING 11:00 AM",
         agenda: "Pixinema sparks creativity and camaraderie among participants who crafted compelling short films on the spot.",
         details: "Join us on <b>25th February</b> at <b>11:00 AM</b> in <b>ARSD Campus</b> for Pixinema, an exciting on-spot filmmaking challenge.",
-        price: "TBA",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24TLIxY4NajhWqmLiJe26Fk9OYIKo038PdQ5ZS",
+        price: "₹80",
+        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24a9fkJo2LkhZxqznH5EDJXIUgO0F7m82fb31C",
         registrationurl: "https://forms.gle/iihjrV5MqutRNuNe7",
         eventmanageremail: "pixelation@arsd.du.ac.in"
     }
