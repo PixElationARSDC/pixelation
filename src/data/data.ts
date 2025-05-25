@@ -5,7 +5,7 @@ export const heroBackground = 'https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lOftB05oUY
 export const CoreTeamMembers = [
     {
         "name": "Tejasva Singh",
-        "role": "Presidentt",
+        "role": "President",
         "username": "tejasva.singh",
         "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBe6ykgmPb8Y1U7lH4I5FRGiAJte6rP0zCOpMn"
     },
