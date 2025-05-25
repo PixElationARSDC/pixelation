@@ -4,101 +4,100 @@ export const heroBackground = 'https://rhs25qyoh1.ufs.sh/f/0ymxA19g3Q7lOftB05oUY
 //Core Team Members
 export const CoreTeamMembers = [
     {
-        name: 'Tejasva Singh',
-        role: 'President',
-        username: 'tejasva.singh',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBe6ykgmPb8Y1U7lH4I5FRGiAJte6rP0zCOpMn'
+        "name": "Tejasva Singh",
+        "role": "Presidentt",
+        "username": "tejasva.singh",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBe6ykgmPb8Y1U7lH4I5FRGiAJte6rP0zCOpMn"
     },
     {
-        name: 'Mahira Zabeen',
-        role: 'Vice-President',
-        username: 'selenephomahi',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBTAlXJW77CMDbyJgPeNsoVGhkFcLBnirHO0Yx'
-    },
-
-    {
-        name: 'Vedika Jaiswal',
-        role: 'Vice-President',
-        username: 'vedika_jaiswal_',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBeLKjf7Pb8Y1U7lH4I5FRGiAJte6rP0zCOpMn'
+        "name": "Mahira Zabeen",
+        "role": "Vice-President",
+        "username": "selenephomahi",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBTAlXJW77CMDbyJgPeNsoVGhkFcLBnirHO0Yx"
     },
     {
-        name: 'Tanu Shree',
-        role: 'Secretary',
-        username: '_tanushree02_',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBkfyJim5uRVzsiK3675lZjFpwhmIvBqY4oXeM'
+        "name": "Vedika Jaiswal",
+        "role": "Vice-President",
+        "username": "vedika_jaiswal_",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBeLKjf7Pb8Y1U7lH4I5FRGiAJte6rP0zCOpMn"
     },
     {
-        name: 'Jatin Kapoor',
-        role: 'Joint Secretary',
-        username: 'jatin.k17',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBPmj8Z1djIQ91pUb0LwrJWRnh63NEkgiKCVzO'
+        "name": "Tanu Shree",
+        "role": "Secretary",
+        "username": "_tanushree02_",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBkfyJim5uRVzsiK3675lZjFpwhmIvBqY4oXeM"
     },
     {
-        name: 'Lakshay Chauhan',
-        role: 'Finance Head',
-        username: 'lakshayychauhann',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIByQQY1vsMcQmTjirvFS08H7oNICkRYGaKdMsO'
+        "name": "Jatin Kapoor",
+        "role": "Joint Secretary",
+        "username": "jatin.k17",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBPmj8Z1djIQ91pUb0LwrJWRnh63NEkgiKCVzO"
     },
     {
-        name: 'Simar Bagga',
-        role: 'Filmmaking Head',
-        username: 'simar_bagga619',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBb63rKg262em1rTZjEpSIYzqvOXG08ohUkuly'
+        "name": "Lakshay Chauhan",
+        "role": "Finance Head",
+        "username": "lakshayychauhann",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIByQQY1vsMcQmTjirvFS08H7oNICkRYGaKdMsO"
     },
     {
-        name: 'Soumadip Mondal',
-        role: 'Videography Head',
-        username: 'soomdip',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBKl7eC7XAMeSycfGmxpCwiNPHuQjWbql7YIT1'
+        "name": "Simar Bagga",
+        "role": "Filmmaking Head",
+        "username": "simar_bagga619",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBb63rKg262em1rTZjEpSIYzqvOXG08ohUkuly"
     },
     {
-        name: 'Sumit',
-        role: 'Social Media Head',
-        username: 'sumitshakya1219',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBSpY94jAwh1el6v9dyNKiE4kCuXGRUgZn0JAQ'
+        "name": "Soumadip Mondal",
+        "role": "Videography Head",
+        "username": "soomdip",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBKl7eC7XAMeSycfGmxpCwiNPHuQjWbql7YIT1"
     },
     {
-        name: 'Arman Aryan',
-        role: 'Content Head',
-        username: 'arman.aryan12',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBhW9zTobVEDrUzSbcesPdjkvhy1WZBtpMIHx3'
+        "name": "Sumit",
+        "role": "Social Media Head",
+        "username": "sumitshakya1219",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBSpY94jAwh1el6v9dyNKiE4kCuXGRUgZn0JAQ"
     },
     {
-        name: 'Pranav Nandagiri',
-        role: 'Coverage Head',
-        username: '_pranav__004',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBEOEOXMeohYwagUml8GryTXtvD70bijn9qPKL'
+        "name": "Arman Aryan",
+        "role": "Content Head",
+        "username": "arman.aryan12",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBhW9zTobVEDrUzSbcesPdjkvhy1WZBtpMIHx3"
     },
     {
-        name: 'Shubham Sagar',
-        role: 'Digital Head',
-        username: 'shubhamsagarrr',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIByNiniMcQmTjirvFS08H7oNICkRYGaKdMsOub'
+        "name": "Pranav Nandagiri",
+        "role": "Coverage Head",
+        "username": "_pranav__004",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBEOEOXMeohYwagUml8GryTXtvD70bijn9qPKL"
     },
     {
-        name: 'Dhruv Kalra',
-        role: 'Deputy Digital Head',
-        username: '__dhruvkalra__',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBfjwfouZVKYhnowOuPdX7H3AB8MbItRDqeQcz'
+        "name": "Shubham Sagar",
+        "role": "Digital Head",
+        "username": "shubhamsagarrr",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIByNiniMcQmTjirvFS08H7oNICkRYGaKdMsOub"
     },
     {
-        name: 'Akansha',
-        role: 'Co-PR Head',
-        username: 'its.me.hi._.ak',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBIGO8Y2N8l0wio7yBvG2xnXOrh3asJQgedVRk'
+        "name": "Dhruv Kalra",
+        "role": "Deputy Digital Head",
+        "username": "__dhruvkalra__",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBfjwfouZVKYhnowOuPdX7H3AB8MbItRDqeQcz"
     },
     {
-        name: 'Abhinav Kalra',
-        role: 'Co-PR Head',
-        username: 'abhinavkalra.17',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIB6UoSNRphMqYmB8lHUoOJe3fETVtruwx2G4Kd'
+        "name": "Akansha",
+        "role": "Co-PR Head",
+        "username": "its.me.hi._.ak",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBIGO8Y2N8l0wio7yBvG2xnXOrh3asJQgedVRk"
     },
     {
-        name: 'Prince',
-        role: 'Competition Head',
-        username: 'the_prince.of',
-        avatar: 'https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBpM59WdEDhTaKimnR16YMOQj3482rsZukGzUX'
+        "name": "Abhinav Kalra",
+        "role": "Co-PR Head",
+        "username": "abhinavkalra.17",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIB6UoSNRphMqYmB8lHUoOJe3fETVtruwx2G4Kd"
+    },
+    {
+        "name": "Prince",
+        "role": "Competition Head",
+        "username": "the_prince.of",
+        "avatar": "https://4x46tcrofa.ufs.sh/f/CDGCKB4tyTIBpM59WdEDhTaKimnR16YMOQj3482rsZukGzUX"
     }
 ];
 
