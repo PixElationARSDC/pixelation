@@ -4,10 +4,14 @@ import './HeroPage.css'
 import HeroText from '@/components/HeroText/HeroText'
 import { HStack } from '@chakra-ui/react'
 import HeroKeywords from '@/components/HeroKeywords/HeroKeywords'
+import { heroBackground } from '@/data/data'
 
 const HeroPage: React.FC = () => {
+  const heroStyle: React.CSSProperties = {
+    backgroundImage: `url(${heroBackground})`,
+  }
   return (
-    <div className='hero-page'>
+    <div className='hero-page' style={heroStyle}>
       <Navbar />
       <HeroText
         text='The Photography and Videography Society'

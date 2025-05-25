@@ -3,45 +3,7 @@ import { GridItem, SimpleGrid } from '@chakra-ui/react';
 import { Helmet } from "react-helmet";
 import Left from '@/components/Event/Left';
 import Right from '@/components/Event/Right';
-
-const Events = [
-    {
-        name: "LENS EYE",
-        location: "ARSD CAMPUS",
-        date: "24/02/25",
-        time: "STARTING 10:00 AM",
-        agenda: "In this fast-paced competition, shutterbugs demonstrate their prowess in capturing the essence of fleeting moments.",
-        details: "Join us on <b>24th February</b> at <b>10:00 AM</b> in <b>ARSD Campus</b> for an exhilarating on-spot photography competition.",
-        price: "₹30",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24xFoxQtP9ho0cnWK7HkwdIeUSRmaQ6GfuA1Zj",
-        registrationurl: "https://forms.gle/k3oGCQMXjWDDxm7YA",
-        eventmanageremail: "pixelation@arsd.du.ac.in"
-    },
-    {
-        name: "CHRONO TALES",
-        location: "ONLINE",
-        date: "22/02/25",
-        time: "Online",
-        agenda: "Chrono Tales provides a virtual canvas for participants to weave captivating narratives through the lens of photography.",
-        details: "Participate in <b>Chrono Tales</b>, our online photostory competition, and let your creativity shine.",
-        price: "₹20",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24uoZgNrirQVW6hdsv59bGDtYOxl4kUgpAHCqe",
-        registrationurl: "https://forms.gle/vUb4sEGQvy9MPYKh8",
-        eventmanageremail: "pixelation@arsd.du.ac.in"
-    },
-    {
-        name: "PIXINEMA",
-        location: "ARSD CAMPUS",
-        date: "25/02/25",
-        time: "STARTING 11:00 AM",
-        agenda: "Pixinema sparks creativity and camaraderie among participants who crafted compelling short films on the spot.",
-        details: "Join us on <b>25th February</b> at <b>11:00 AM</b> in <b>ARSD Campus</b> for Pixinema, an exciting on-spot filmmaking challenge.",
-        price: "₹80",
-        image: "https://eytim95w0m.ufs.sh/f/9E19w1sYoF24WqcwTpjIgX1O40pze6i2yAE73ntmZSCFvrDs",
-        registrationurl: "https://forms.gle/iihjrV5MqutRNuNe7",
-        eventmanageremail: "pixelation@arsd.du.ac.in"
-    }
-];
+import { Events } from '@/data/data';
 
 const EventPage: React.FC = () => {
     const jsonLD = {
